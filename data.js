@@ -2,17 +2,17 @@ const jsonData = {
     'morning6' : {
       'header': 'ఉదయం 6:15 నుండి 8:30 వరకు గెలిచే రంగు',
       '1': {
-        'url': 'https://www.w3schools.com/howto/img_avatar2.png',
-        'text': 'Text 1'
+        'url': '/assets/kaki_nemali_2.jpeg',
+        'text': 'కాకి నెమలి'
       },
   
       '2': {
-        'url': 'https://www.w3schools.com/howto/img_avatar2.png',
+        'url': '/assets/kaki_nemali_2.jpeg',
         'text': 'Text 2'
       },
   
       '3': {
-        'url': 'https://www.w3schools.com/howto/img_avatar2.png',
+        'url': '/assets/kaki_nemali_2.jpeg',
         'text': 'Text 3'
       }
     },
