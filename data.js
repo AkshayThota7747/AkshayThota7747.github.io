@@ -7,7 +7,7 @@ const jsonData = {
       },
   
       '2': {
-        'url': '/assets/abrass.jpeg',
+        'url': '/assets/abrass.webp',
         'text': 'abrass'
       },
   
