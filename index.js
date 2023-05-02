@@ -36,6 +36,7 @@ function createElement(tagName, className) {
       next = createElement('a', 'next');
   
     h4.innerText = header;
+    h4.innerText = header;
     prev.innerText = '❮';
     next.innerText = '❯';
   

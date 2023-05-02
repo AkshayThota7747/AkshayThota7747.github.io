@@ -18,6 +18,7 @@
       }
       img {
         vertical-align: middle;
+        height: 500px;
       }
 
       /* Slideshow container */
@@ -34,6 +35,7 @@
 
       .slideshow-container {
         max-width: 600px;
+        max-height: 650px;
         position: relative;
         color: #000;
         margin: 20px;
@@ -49,7 +51,24 @@
       }
 
       /* Next & previous buttons */
-      .prev,
+      .prev {
+        cursor: pointer;
+        position: absolute;
+        top: 50%;
+        width: auto;
+        padding: 16px;
+        margin-top: 16px;
+        margin-bottom: 16px;
+        margin-left: 16px;
+        margin-right: 16px;
+        color: white;
+        font-weight: bold;
+        font-size: 18px;
+        transition: 0.6s ease;
+        border-radius: 3px 0 0 3px;
+        user-select: none;
+        align-items: center;
+      }
       .next {
         cursor: pointer;
         position: absolute;
@@ -75,7 +94,9 @@
       }
 
       /* On hover, add a black background color with a little bit see-through */
-      .prev:hover,
+      .prev:hover{
+        background-color: rgba(0, 0, 0, 0.8);
+      }
       .next:hover {
         background-color: rgba(0, 0, 0, 0.8);
       }
@@ -153,8 +174,8 @@
     </style>
   </head>
   <body>
-    <div style="text-align: center"> 🏆🏆🏆ఈరోజు గెలిచే రంగులు🏆🏆🏆 </div>
-    <div style="text-align: center" id="last-text"> సాయంత్రం 5:30pm నుండి గెలిచే రంగులు 🏆 </div>
+    <div style="text-align: center"> 🏆🏆🏆ఈరోజు మే 3 బుధవారం గెలిచే రంగులు🏆🏆🏆 </div>
+    <div style="text-align: center" id="last-text">సాయంత్రం 5:30pm నుండి గెలిచే రంగులు</div>
     <script src="./data.js"></script>
     <script src="./index.js"></script>
   </body>
