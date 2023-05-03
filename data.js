@@ -1,31 +1,58 @@
+let kodi_kaki = {
+  'url': '/assets/kodi_kaki_2.jpeg',
+  'text': 'కోడి కాకి'
+}
+
+let sethuva = {
+  'url': '/assets/sethuva.jpeg',
+  'text': 'సేతువా'
+}
+
+let kodi_pacha_kaki = {
+  'url': '/assets/kodi_pacha_kaki.jpeg',
+  'text': 'కోడి పచ్చ కాకి'
+}
+
+let thella_kodi_kekkirayi = {
+  'url': '/assets/kekkirayi.jpeg',
+  'text': 'తెల్ల కోడి కొక్కిరాయి'
+}
+
+let kodi_rasangi = {
+  'url': '/assets/rasangi.jpeg',
+  'text': "కోడి రసంగి"
+}
+
+function getNameInfo(name) {
+  switch (true) {
+    case name.includes("kodi_kaki"):
+      return kodi_kaki;
+    case name.includes("sethuva"):
+      return sethuva;
+    case name.includes("kodi_pacha_kaki"):
+      return kodi_pacha_kaki;
+    case name.includes("thella_kodi_kekkirayi"):
+      return thella_kodi_kekkirayi;
+    case name.includes("kodi_rasangi"):
+      return kodi_rasangi;
+    default:
+      return {};
+  }
+}
+
 
 const kodi_pingala_first_jamu = 
 {
   'header': 'ఉదయం 6:15 నుండి 8:30 గెలిచే రంగు - కోడి పింగళ' + '\n' + 'కోడి పింగళ వంతులో పెట్టుకోవాల్సిన రంగులు ↓',
-  '1': {
-    'url': '/assets/kodi_kaki_2.jpeg',
-    'text': 'కోడి కాకి'
-  },
+  '1': getNameInfo("kodi_kaki"),
 
-  '2': {
-    'url': '/assets/sethuva.jpeg',
-    'text': 'సేతువా'
-  },
+  '2': getNameInfo("sethuva"),
 
-  '3': {
-    'url': '/assets/kodi_pacha_kaki.jpeg',
-    'text': 'కోడి పచ్చ కాకి'
-  },
+  '3': getNameInfo("kodi_pacha_kaki"),
 
-  '4': {
-    'url': '/assets/kekkirayi.jpeg',
-    'text': 'తెల్ల కోడి కొక్కిరాయి'
-  },
+  '4': getNameInfo("thella_kodi_kekkirayi"),
 
-  '5': {
-    'url': '/assets/rasangi.jpeg',
-    'text': "కోడి రసంగి"
-  }
+  '5': getNameInfo("kodi_rasangi")
 }
 
 
@@ -176,3 +203,5 @@ const translated = {
 function getCockNames(name) {  
   return name;
 }
+
+
