@@ -1,5 +1,5 @@
 let kodi_kaki = {
-  'url': '/assets/kodi_kaki_2.jpeg',
+  'url': '/assets/kodi_kaki_pingala_chupu.jpeg',
   'text': 'కోడి కాకి'
 }
 
@@ -23,9 +23,9 @@ let kodi_rasangi = {
   'text': "కోడి రసంగి"
 }
 
-let kaki_dega = {
-  'url': '/assets/kaki_dega.jpeg',
-  'text': 'కాకి డేగ'
+let kattu_kaki = {
+  'url': '/assets/kattu_kaki.jpeg',
+  'text': 'కాకి'
 }
 
 let kaki_dega_parla = {
@@ -34,17 +34,17 @@ let kaki_dega_parla = {
 }
 
 let erupu_minchina_getti_kaki = {
-  'url': '/assets/kattu_kaki.jpeg',
-  'text': 'ఎరుపు మించిన గెట్టి కాకి'
+  'url': '/assets/kaki_dega.jpeg',
+  'text': 'ఎరుపు మించిన గెట్టి కాకి డేగ'
 }
 
 let nemali_pingala = {
-  'url': '/assets/nemali_pingala.jpeg',
+  'url': '/assets/pingala.jpeg',
   'text': 'నెమలి పింగళ'
 }
 
 let thella_nemali = {
-  'url': '/assets/pingala.jpeg',
+  'url': '/assets/thella_savala.webp',
   'text': 'తెల్ల నెమలి'
 }
 
@@ -63,8 +63,8 @@ let kodi_dega = {
   'text': 'కోడి డేగ'
 }
 
-let errabotlu_sethuva = {
-  'url': '/assets/nallabotlu_errabotlu_sethuva.webp',
+let errabotlu = {
+  'url': '/assets/nallabotlu_errabotlu.webp',
   'text': 'ఎర్రబొట్ల సేతువా'
 }
 
@@ -73,9 +73,9 @@ let erra_kodi_kekkirayi = {
   'text': 'ఎర్ర కోడి కొక్కిరాయి'
 }
 
-let kaki_nemali = {
+let erupu_kaki_nemali = {
   'url': '/assets/erupu_minchina_kaki_nemali.jpeg',
-  'text': 'కాకి నెమలి'
+  'text': 'ఎరుపు మించిన కాకి నెమలి'
 }
 
 let pacha_kaki = {
@@ -84,14 +84,61 @@ let pacha_kaki = {
 }
 
 let nemali_maila = {
-  'url': '/assets/nemali_maila.jpeg',
+  'url': '/assets/nemali_maila_new.jpeg',
   'text': 'నెమలి మైల'
+}
+
+let poola_rasangi = {
+  'url': '/assets/poola_rasangi.jpeg',
+  'text': 'కోడి రసంగి'
+}
+
+let kodi_pingali = {
+  'url': '/assets/kodi_pingala.jpeg',
+  'text': 'కోడి పింగళ'
+}
+
+let erra_kaki_dega = {
+  'url': '/assets/erra_kaki_dega_new.jpeg',
+  'text': 'ఎర్ర కాకి డేగ'
+}
+
+let kaki = {
+  'url': '/assets/kaki_dega_new.jpeg',
+  'text': 'కాకి డేగ'
+}
+
+let np_abrass = {
+  'url': '/assets/nemali_pingala_abrass.jpeg',
+  'text': 'నెమలి పింగళ అబ్రసు'
+}
+
+let dega = {
+  'url': '/assets/dega.jpeg',
+  'text': 'డేగ'
+}
+
+let kaki_nemali = {
+  'url': '/assets/kaki_nemali_new.jpeg',
+  'text': 'కాకి నెమలి'
+}
+
+let nemali_daga = {
+  'url': '/assets/nemali_dega.webp',
+  'text': 'నెమలి డేగ'
+}
+
+let nalla_savala = {
+  'url': '/assets/nalla_savala_2.jpeg',
+  'text': 'నల్ల సవల'
 }
 
 function getNameInfo(name) {
   switch (true) {
     case name.includes("kodi_kaki"):
       return kodi_kaki;
+    case name.includes("erra_kaki_dega"):
+      return erra_kaki_dega;
     case name.includes("sethuva"):
       return sethuva;
     case name.includes("kodi_pacha_kaki"):
@@ -100,16 +147,14 @@ function getNameInfo(name) {
       return thella_kodi_kekkirayi;
     case name.includes("kodi_rasangi"):
       return kodi_rasangi;
-    case name.includes("kodi_rasangi"):
-      return kodi_rasangi;
-    case name.includes("kaki_dega"):
-      return kaki_dega;
-    case name.includes("kaki_dega_parka"):
+    case name.includes("poola_rasangi"):
+      return poola_rasangi;
+    case name.includes("kattu_kaki"):
+      return kattu_kaki;
+    case name.includes("kade_parla"):
       return kaki_dega_parla;
     case name.includes("erupu_minchina_getti_kaki"):
       return erupu_minchina_getti_kaki;
-    case name.includes("nemali_pingala"):
-      return nemali_pingala;
     case name.includes("nemali_pingala"):
       return nemali_pingala;
     case name.includes("thella_nemali"):
@@ -120,8 +165,8 @@ function getNameInfo(name) {
       return nemali_poola;
     case name.includes("kodi_dega"):
       return kodi_dega;
-    case name.includes("errabotlu_sethuva"):
-      return errabotlu_sethuva;
+    case name.includes("errabotlu"):
+      return errabotlu;
     case name.includes("erra_kodi_kekkirayi"):
       return erra_kodi_kekkirayi;
     case name.includes("kaki_nemali"):
@@ -130,6 +175,20 @@ function getNameInfo(name) {
       return pacha_kaki;
     case name.includes("nemali_maila"):
       return nemali_maila;
+    case name.includes("kodi_pingali"):
+      return kodi_pingali;
+    case name.includes("kaki"):
+      return kaki;
+    case name.includes("np_abrass"):
+      return np_abrass;
+    case name.includes("dega"):
+      return dega;
+    case name.includes("erupu_kaki_nemali"):
+      return erupu_kaki_nemali;
+    case name.includes("nemali_daga"):
+      return nemali_daga;
+    case name.includes("nalla_savala"):
+      return nalla_savala;
 
     default:
       return {};
@@ -137,88 +196,107 @@ function getNameInfo(name) {
 }
 
 
-const kodi_pingala_first_jamu = 
+const kodi_pingala_jamu = 
 {
-  'header': 'ఉదయం 6:15 నుండి 8:30 గెలిచే రంగు -' + getTranslated("kodi_pingala") + '\n' + 'కోడి పింగళ వంతులో పెట్టుకోవాల్సిన రంగులు ↓',
+  'header': getTimingText("2") + getTranslated("kodi_pingala") + '\n' + 'కోడి పింగళ వంతులో పెట్టుకోవాల్సిన రంగులు ↓',
   '1': getNameInfo("kodi_kaki"),
 
-  '2': getNameInfo("sethuva"),
+  '2': getNameInfo("thella_kodi_kekkirayi"),
 
-  '3': getNameInfo("kodi_pacha_kaki"),
+  '3': getNameInfo("poola_rasangi"),
 
-  '4': getNameInfo("thella_kodi_kekkirayi"),
+  '4': getNameInfo("kodi_pingali"),
 
-  '5': getNameInfo("kodi_rasangi")
+  '5': getNameInfo("kodi_pacha_kaki")
 }
 
 
-const kaki_dega_second_jamu = {
-  'header': 'ఉదయం 8:30 నుండి 10:45 వరకు గెలిచే రంగు -' + getTranslated("kaki_dega") + '\n' + 'కాకి డేగ వంతులో పెట్టుకోవాల్సిన రంగులు ↓',
-  '1': getNameInfo("kaki_dega"),
+const kaki_dega_jamu = {
+  'header': getTimingText("3") + getTranslated("kaki_dega") + '\n' + getTranslated("kaki_dega") + ' వంతులో పెట్టుకోవాల్సిన రంగులు ↓',
+  
+  '1': getNameInfo("kaki"), 
 
-  '2': getNameInfo("kaki_dega_parla"),
+  '2': getNameInfo("kattu_kaki"), 
+  
+  '3': getNameInfo("erra_kaki_dega"), 
 
-  '3': getNameInfo("erupu_minchina_getti_kaki")
+  '4': getNameInfo("erupu_minchina_getti_kaki"),
+
+  '5': getNameInfo("kade_parla")
 }
 
 
-const nemali_pingala_third_jamu = {
-  'header': 'ఉదయం 10:45 నుండి మధ్యాహ్నం 1 వరకు గెలిచే రంగు -' + getTranslated("nemali_pingala") + '\n' + 'నెమలి పింగళ వంతులో పెట్టుకోవాల్సిన రంగులు ↓',
+const nemali_pingala_jamu = {
+  'header': getTimingText("4") + getTranslated("nemali_pingala") + '\n' + getTranslated("nemali_pingala") + ' వంతులో పెట్టుకోవాల్సిన రంగులు ↓',
+
   '1': getNameInfo("nemali_pingala"),
 
-  '2': getNameInfo("thella_nemali"),
+  '2': getNameInfo("np_abrass"),
 
-  '3': getNameInfo("pala_abrass"),
+  '3': getNameInfo("thella_nemali"),
 
-  '4': getNameInfo("nemali_poola")
+  '4': getNameInfo("pala_abrass"),
+
+  '5': getNameInfo("nemali_poola")
 }
 
 
-const kodi_dega_fourth_jamu = {
-  'header': 'మధ్యాహ్నం 1 నుండి మధ్యాహ్నం 3:15 వరకు గెలిచే రంగు -' + getTranslated("kodi_dega") + '\n' + 'కోడి డేగ వంతులో పెట్టుకోవాల్సిన రంగులు ↓',
+const kodi_dega_jamu = {
+  'header': getTimingText("5") + getTranslated("kodi_dega") + '\n' + getTranslated("kodi_dega") + ' వంతులో పెట్టుకోవాల్సిన రంగులు ↓',
   '1': getNameInfo("kodi_dega"),
 
-  '2': getNameInfo("errabotlu_sethuva"),
+  '2': getNameInfo("dega"),
+  
+  '3': getNameInfo("erra_kodi_kekkirayi"),
 
-  '3': getNameInfo("erra_kodi_kekkirayi")
+  '4': getNameInfo("kodi_rasangi"),
+  
+  '5': getNameInfo("errabotlu")
+
 }
 
-const kaki_nemali_fifth_jamu = {
-  'header': 'మధ్యాహ్నం 3:15 నుండి సాయంత్రం 5:30 వరకు గెలిచే రంగు -' + getTranslated("kaki_nemali") + '\n' + 'కాకి నెమలి వంతులో పెట్టుకోవాల్సిన రంగులు ↓',
+const kaki_nemali_jamu = {
+  'header': getTimingText("1") + getTranslated("kaki_nemali") + '\n' + getTranslated("kaki_nemali")+ ' వంతులో పెట్టుకోవాల్సిన రంగులు ↓',
+
   '1': getNameInfo("kaki_nemali"),
 
-  '2': getNameInfo("pacha_kaki"),
+  '2': getNameInfo("nalla_savala"),
 
-  '3': getNameInfo("nemali_maila")
+  '3': getNameInfo("nemali_maila"),
+
+  '4': getNameInfo("nemali_daga"),
+
+  '5': getNameInfo("pacha_kaki"),
 }
 
-const kodi_pingala_last_jamu = 
+const last_jamu = 
 {
-  'header': 'ఉదయం 6:15 నుండి 8:30 గెలిచే రంగు -' + getTranslated("kodi_pingala") + '\n' + 'కోడి పింగళ వంతులో పెట్టుకోవాల్సిన రంగులు ↓',
-  '1': getNameInfo("kodi_kaki"),
+  'header': getTimingText("1") + getTranslated("kaki_nemali") + '\n' + getTranslated("kaki_nemali")+ ' వంతులో పెట్టుకోవాల్సిన రంగులు ↓',
 
-  '2': getNameInfo("sethuva"),
+  '1': getNameInfo("kaki_nemali"),
 
-  '3': getNameInfo("kodi_pacha_kaki"),
+  '2': getNameInfo("nalla_savala"),
 
-  '4': getNameInfo("thella_kodi_kekkirayi"),
+  '3': getNameInfo("nemali_maila"),
 
-  '5': getNameInfo("kodi_rasangi")
+  '4': getNameInfo("nemali_daga"),
+
+  '5': getNameInfo("pacha_kaki"),
 }
 
 
 const jsonData = {
-    'morning6' : kodi_pingala_first_jamu,
+    'morning6' : kodi_dega_jamu,
 
-    'morning8' : kaki_dega_second_jamu,
+    'morning8' : kodi_pingala_jamu,
   
-    'morning10' : nemali_pingala_third_jamu,
+    'morning10' : kaki_nemali_jamu,
   
-    'afternoon1' : kodi_dega_fourth_jamu,
+    'afternoon1' : nemali_pingala_jamu,
   
-    'afternoon3' : kaki_nemali_fifth_jamu,
+    'afternoon3' : kaki_dega_jamu,
 
-    'evening' : kodi_pingala_last_jamu
+    'evening' : last_jamu
   }
 
 
@@ -234,6 +312,25 @@ function getTranslated(name) {
       return "కోడి డేగ";
     case name.includes("kaki_nemali"):
       return "కాకి నెమలి";
+      default:
+        return {};
+    }
+}
+
+function getTimingText(time){
+  switch(true){
+    case time.includes("1"):
+      return "ఉదయం 6:15 నుండి 8:30 గెలిచే రంగు -";
+    case time.includes("2"):
+      return "ఉదయం 8:30 నుండి 10:45 వరకు గెలిచే రంగు -";
+    case time.includes("3"):
+      return "ఉదయం 10:45 నుండి మధ్యాహ్నం 1 వరకు గెలిచే రంగు -";
+    case time.includes("4"):
+      return "మధ్యాహ్నం 1 నుండి మధ్యాహ్నం 3:15 వరకు గెలిచే రంగు -";
+    case time.includes("5"):
+      return "మధ్యాహ్నం 3:15 నుండి సాయంత్రం 5:30 వరకు గెలిచే రంగు -";
+    case time.includes("6"):
+      return "సాయంత్రం 5:30 నుండి గెలిచే రంగు -";
       default:
         return {};
     }
