@@ -416,7 +416,7 @@ const kaki_nemali_jamu = {
 
 
 const kodi_kaki_jamu = {
-  'header': getTimingText("4") + "🏆 " + getTranslated("kodi_kaki") + " 🏆" + '\n' + getTranslated("kodi_kaki")+ ' వంతులో పెట్టుకోవాల్సిన రంగులు ↓',
+  'header': getTimingText("2") + "🏆 " + getTranslated("kodi_kaki") + " 🏆" + '\n' + getTranslated("kodi_kaki")+ ' వంతులో పెట్టుకోవాల్సిన రంగులు ↓',
 
   '1': getNameInfo("kodi_kaki"),
 
@@ -436,7 +436,7 @@ const kodi_kaki_jamu = {
 
 
 const kodi_nemali_jamu = {
-  'header': getTimingText("2") + "🏆 " + getTranslated("kodi_nemali") + " 🏆" + '\n' + getTranslated("kodi_nemali")+ ' వంతులో పెట్టుకోవాల్సిన రంగులు ↓',
+  'header': getTimingText("5") + "🏆 " + getTranslated("kodi_nemali") + " 🏆" + '\n' + getTranslated("kodi_nemali")+ ' వంతులో పెట్టుకోవాల్సిన రంగులు ↓',
 
   '1': getNameInfo("kodi_nemili"),
 
@@ -448,7 +448,7 @@ const kodi_nemali_jamu = {
 
 
 const nemali_dega_jamu = {
-  'header': getTimingText("5") + "🏆 " + getTranslated("nemali_dega") + " 🏆" + '\n' + getTranslated("nemali_dega")+ ' వంతులో పెట్టుకోవాల్సిన రంగులు ↓',
+  'header': getTimingText("3") + "🏆 " + getTranslated("nemali_dega") + " 🏆" + '\n' + getTranslated("nemali_dega")+ ' వంతులో పెట్టుకోవాల్సిన రంగులు ↓',
 
   '1': getNameInfo("n_d"),
 
@@ -460,7 +460,7 @@ const nemali_dega_jamu = {
 
 
 const kaki_pingali_jamu = {
-  'header': getTimingText("1") + "🏆 " + getTranslated("kaki_pingala") + " 🏆" + '\n' + getTranslated("kaki_pingala")+ ' వంతులో పెట్టుకోవాల్సిన రంగులు ↓',
+  'header': getTimingText("4") + "🏆 " + getTranslated("kaki_pingala") + " 🏆" + '\n' + getTranslated("kaki_pingala")+ ' వంతులో పెట్టుకోవాల్సిన రంగులు ↓',
 
   '1': getNameInfo("kaaaki"),
 
@@ -480,7 +480,7 @@ const kaki_pingali_jamu = {
 
 
 const dega_pingala_jamu = {
-  'header': getTimingText("3") + "🏆 " + getTranslated("dega_pingala") + " 🏆" + '\n' + getTranslated("dega_pingala")+ ' వంతులో పెట్టుకోవాల్సిన రంగులు ↓',
+  'header': getTimingText("1") + "🏆 " + getTranslated("dega_pingala") + " 🏆" + '\n' + getTranslated("dega_pingala")+ ' వంతులో పెట్టుకోవాల్సిన రంగులు ↓',
 
   '1': getNameInfo("org_deg"),
 
@@ -499,46 +499,43 @@ const dega_pingala_jamu = {
 
 const last_jamu = 
 {
-  'header': getTimingText("6") + "🏆 " + getTranslated("kaki_pingala") + " 🏆" + '\n' + getTranslated("kaki_pingala")+ ' వంతులో పెట్టుకోవాల్సిన రంగులు ↓',
+  'header': getTimingText("6") + "🏆 " + getTranslated("dega_pingala") + " 🏆" + '\n' + getTranslated("dega_pingala")+ ' వంతులో పెట్టుకోవాల్సిన రంగులు ↓',
 
-  '1': getNameInfo("kaaaki"),
+  '1': getNameInfo("org_deg"),
 
-  '2': getNameInfo("pettamari_k"),
+  '2': getNameInfo("erra_kekkirai"),
 
-  '3': getNameInfo("pacha_kaki"),
-
-  '4': getNameInfo("nbs"),
-
-  '5': getNameInfo("goudu_nemali"),
-
-  '6': getNameInfo("bk"),
+  '3': getNameInfo("nbs"),
+  
+  '4': getNameInfo("er_maila"),
+  
+  '5': getNameInfo("geruva"),
 
 }
 
 
 const jsonData = {
-    'morning6' : kaki_pingali_jamu,
+    'morning6' : dega_pingala_jamu,
 
-    'morning8' : kodi_nemali_jamu,
+    'morning8' : kodi_kaki_jamu,
   
-    'morning10' : dega_pingala_jamu,
+    'morning10' : nemali_dega_jamu,
   
-    'afternoon1' : kodi_kaki_jamu,
+    'afternoon1' : kaki_pingali_jamu,
   
-    'afternoon3' : nemali_dega_jamu,
+    'afternoon3' : kodi_nemali_jamu,
 
     'evening' : last_jamu
   }
 
 
-//   మే 17 బుధవారం (ముసుగు పంధాలకి మాత్రమే పని చేసే రంగులు)
-// 6:15am to 8:30am -> (కాకి పింగళి) గెలుస్తోంది
-// 8:30am to 10:45am ->  (కోడి నెమలి)  గెలుస్తోంది
-// 10:45am to 1pm -> (డేగ పింగళి) గెలుస్తోంది
-// 1pm to 3:15pm -> (కోడి కాకి) గెలుస్తోంది
-// 3:15pm to 5:30pm -> (నెమలి డేగ) గెలుస్తోంది
-// 5:30pm నుండి -> (కాకి పింగళి) గెలుస్తోంది <-- (రాత్రి పూట పని చేసే రంగులు)
-// ఆల్ ది బెస్ట్ - అడ్మిన్
+  // మే 18 గురువారం (ముసుగు పంధాలకి మాత్రమే పని చేసే రంగులు)
+  // 6:15am to 8:30am -> (డేగ పింగళి) గెలుస్తోంది
+  // 8:30am to 10:45am ->  (కోడి కాకి)  గెలుస్తోంది
+  // 10:45am to 1pm -> (నెమలి డేగ) గెలుస్తోంది
+  // 1pm to 3:15pm -> (కాకి పింగళి) గెలుస్తోంది
+  // 3:15pm to 5:30pm -> (కోడి నెమలి) గెలుస్తోంది
+  // 5:30pm నుండి -> (డేగ పింగళి) గెలుస్తోంది <-- (రాత్రి పూట పని చేసే రంగులు)
 
 
 function getTranslated(name) {  
