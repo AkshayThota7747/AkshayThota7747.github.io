@@ -183,6 +183,11 @@ let pettamari_k = {
   'text': 'కాకి పెట్టమరి'
 }
 
+let pacha_pettemaru = {
+  'url': '/assets/pacha_kaki_pettamari.jpeg',
+  'text': 'పచ్చ కాకి పెట్టమరి'
+}
+
 let kaaaki = {
   'url': '/assets/kaki.jpeg',
   'text': 'కాకి'
@@ -315,6 +320,8 @@ function getNameInfo(name) {
       return geruva;
     case name.includes("t_bunga_p_k"):
       return t_bunga_p_k;
+    case name.includes("pacha_pettemaru"):
+      return pacha_pettemaru;
 
     default:
       return {};
@@ -457,15 +464,17 @@ const kaki_pingali_jamu = {
 
   '1': getNameInfo("kaaaki"),
 
-  '2': getNameInfo("pettamari_k"),
+  '2': getNameInfo("pacha_pettemaru"),
 
-  '3': getNameInfo("pacha_kaki"),
+  '3': getNameInfo("pettamari_k"),
 
-  '4': getNameInfo("nbs"),
+  '4': getNameInfo("pacha_kaki"),
 
-  '5': getNameInfo("goudu_nemali"),
+  '5': getNameInfo("nbs"),
 
-  '6': getNameInfo("bk"),
+  '6': getNameInfo("goudu_nemali"),
+
+  '7': getNameInfo("bk"),
 
 }
 
