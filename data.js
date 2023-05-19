@@ -1,331 +1,238 @@
-let kodi_kaki = {
-  'url': '/assets/kodi_kaki_pingala_chupu.jpeg',
-  'text': 'కోడి కాకి'
-}
+const roosterMap =
+{
+  kodi_kaki: {
+    'url': '/assets/kodi_kaki_pingala_chupu.jpeg',
+    'text': 'కోడి కాకి'
+  }
 
-let sethuva = {
-  'url': '/assets/sethuva.jpeg',
-  'text': 'సేతువా'
-}
+  , sethuva: {
+    'url': '/assets/sethuva.jpeg',
+    'text': 'సేతువా'
+  }
 
-let kodi_pacha_kaki = {
-  'url': '/assets/kodi_chupu_pasimi_gala_pacha_kaki.webp',
-  'text': 'కోడి పచ్చ కాకి'
-}
+  , kodi_pacha_kaki: {
+    'url': '/assets/kodi_chupu_pasimi_gala_pacha_kaki.webp',
+    'text': 'కోడి పచ్చ కాకి'
+  }
 
-let thella_kodi_kekkirayi = {
-  'url': '/assets/kekkirayi.jpeg',
-  'text': 'తెల్ల కోడి కొక్కిరాయి'
-}
+  , thella_kodi_kekkirayi: {
+    'url': '/assets/kekkirayi.jpeg',
+    'text': 'తెల్ల కోడి కొక్కిరాయి'
+  }
 
-let kodi_rasangi = {
-  'url': '/assets/rasangi.jpeg',
-  'text': "కోడి రసంగి"
-}
+  , kodi_rasangi: {
+    'url': '/assets/rasangi.jpeg',
+    'text': "కోడి రసంగి"
+  }
 
-let kattu_kaki = {
-  'url': '/assets/kattu_kaki.jpeg',
-  'text': 'కాకి'
-}
+  , kattu_kaki: {
+    'url': '/assets/kattu_kaki.jpeg',
+    'text': 'కాకి'
+  }
 
-let kaki_dega_parla = {
-  'url': '/assets/erra_nemali.jpeg',
-  'text': 'కాకి డేగ పర్ల'
-}
+  , kaki_dega_parla: {
+    'url': '/assets/erra_nemali.jpeg',
+    'text': 'కాకి డేగ పర్ల'
+  }
 
-let erupu_minchina_getti_kaki = {
-  'url': '/assets/kaki_dega.jpeg',
-  'text': 'ఎరుపు మించిన గెట్టి కాకి డేగ'
-}
+  , erupu_minchina_getti_kaki: {
+    'url': '/assets/kaki_dega.jpeg',
+    'text': 'ఎరుపు మించిన గెట్టి కాకి డేగ'
+  }
 
-let nemali_pingala = {
-  'url': '/assets/pingala.jpeg',
-  'text': 'నెమలి పింగళ'
-}
+  , nemali_pingala: {
+    'url': '/assets/pingala.jpeg',
+    'text': 'నెమలి పింగళ'
+  }
 
-let thella_nemali = {
-  'url': '/assets/thella_savala.webp',
-  'text': 'తెల్ల నెమలి'
-}
+  , thella_nemali: {
+    'url': '/assets/thella_savala.webp',
+    'text': 'తెల్ల నెమలి'
+  }
 
-let pala_abrass = {
-  'url': '/assets/pala_abrass.jpeg',
-  'text': 'పాల అబ్రసు'
-}
+  , pala_abrass: {
+    'url': '/assets/pala_abrass.jpeg',
+    'text': 'పాల అబ్రసు'
+  }
 
-let nemali_poola = {
-  'url': '/assets/nemali_poola.jpeg',
-  'text': 'నెమలి పూల'
-}
+  , nemali_poola: {
+    'url': '/assets/nemali_poola.jpeg',
+    'text': 'నెమలి పూల'
+  }
 
-let kodi_dega = {
-  'url': '/assets/kodi_dega.jpeg',
-  'text': 'కోడి డేగ'
-}
+  , kodi_dega: {
+    'url': '/assets/kodi_dega.jpeg',
+    'text': 'కోడి డేగ'
+  }
 
-let errabotlu = {
-  'url': '/assets/nallabotlu_errabotlu.webp',
-  'text': 'ఎర్రబొట్ల సేతువా'
-}
+  , errabotlu: {
+    'url': '/assets/nallabotlu_errabotlu.webp',
+    'text': 'ఎర్రబొట్ల సేతువా'
+  }
 
-let erra_kodi_kekkirayi = {
-  'url': '/assets/gaju_kekkirayi.jpeg',
-  'text': 'ఎర్ర కోడి కొక్కిరాయి'
-}
+  , erra_kodi_kekkirayi: {
+    'url': '/assets/gaju_kekkirayi.jpeg',
+    'text': 'ఎర్ర కోడి కొక్కిరాయి'
+  }
 
-let erupu_kaki_nemali = {
-  'url': '/assets/erupu_minchina_kaki_nemali.jpeg',
-  'text': 'ఎరుపు మించిన కాకి నెమలి'
-}
+  , erupu_kaki_nemali: {
+    'url': '/assets/erupu_minchina_kaki_nemali.jpeg',
+    'text': 'ఎరుపు మించిన కాకి నెమలి'
+  }
 
-let pacha_kaki = {
-  'url': '/assets/pacha_kaki.jpeg',
-  'text': 'పచ్చ కాకి'
-}
+  , pacha_kaki: {
+    'url': '/assets/pacha_kaki.jpeg',
+    'text': 'పచ్చ కాకి'
+  }
 
-let nemali_maila = {
-  'url': '/assets/nemali_maila_new.jpeg',
-  'text': 'నెమలి మైల'
-}
+  , nemali_maila: {
+    'url': '/assets/nemali_maila_new.jpeg',
+    'text': 'నెమలి మైల'
+  }
 
-let poola_rasangi = {
-  'url': '/assets/poola_rasangi.jpeg',
-  'text': 'కోడి రసంగి'
-}
+  , poola_rasangi: {
+    'url': '/assets/poola_rasangi.jpeg',
+    'text': 'కోడి రసంగి'
+  }
 
-let kodi_pingali = {
-  'url': '/assets/kodi_pingala.jpeg',
-  'text': 'కోడి పింగళ'
-}
+  , kodi_pingali: {
+    'url': '/assets/kodi_pingala.jpeg',
+    'text': 'కోడి పింగళ'
+  }
 
-let erra_kaki_dega = {
-  'url': '/assets/erra_kaki_dega_new.jpeg',
-  'text': 'ఎర్ర కాకి డేగ'
-}
+  , erra_kaki_dega: {
+    'url': '/assets/erra_kaki_dega_new.jpeg',
+    'text': 'ఎర్ర కాకి డేగ'
+  }
 
-let kaki = {
-  'url': '/assets/kaki_dega_new.jpeg',
-  'text': 'కాకి డేగ'
-}
+  , kaki: {
+    'url': '/assets/kaki_dega_new.jpeg',
+    'text': 'కాకి డేగ'
+  }
 
-let np_abrass = {
-  'url': '/assets/nemali_pingala_abrass.jpeg',
-  'text': 'నెమలి పింగళ అబ్రసు'
-}
+  , np_abrass: {
+    'url': '/assets/nemali_pingala_abrass.jpeg',
+    'text': 'నెమలి పింగళ అబ్రసు'
+  }
 
-let dega = {
-  'url': '/assets/dega.jpeg',
-  'text': 'డేగ'
-}
+  , dega: {
+    'url': '/assets/dega.jpeg',
+    'text': 'డేగ'
+  }
 
-let kaki_nemali = {
-  'url': '/assets/kaki_nemali_new.jpeg',
-  'text': 'కాకి నెమలి'
-}
+  , kaki_nemali: {
+    'url': '/assets/kaki_nemali_new.jpeg',
+    'text': 'కాకి నెమలి'
+  }
 
-let nemali_daga = {
-  'url': '/assets/nemali_dega.webp',
-  'text': 'నెమలి డేగ'
-}
+  , nemali_daga: {
+    'url': '/assets/nemali_dega.webp',
+    'text': 'నెమలి డేగ'
+  }
 
-let nalla_savala = {
-  'url': '/assets/nalla_savala_2.jpeg',
-  'text': 'నల్ల సవల'
-}
+  , nalla_savala: {
+    'url': '/assets/nalla_savala_2.jpeg',
+    'text': 'నల్ల సవల'
+  }
 
-let kodi_chupu_kn = {
-  'url': '/assets/kodi_chupu_kaki_nemali_or_kodi_kaki.jpeg',
-  'text': 'కోడి కాకి నెమలి'
-}
+  , kodi_chupu_kn: {
+    'url': '/assets/kodi_chupu_kaki_nemali_or_kodi_kaki.jpeg',
+    'text': 'కోడి కాకి నెమలి'
+  }
 
-let kodi_chupu_kd = {
-  'url': '/assets/kodi_chupu_kaki_dega.jpeg',
-  'text': 'కోడి చూపు కాకి డేగ'
-}
+  , kodi_chupu_kd: {
+    'url': '/assets/kodi_chupu_kaki_dega.jpeg',
+    'text': 'కోడి చూపు కాకి డేగ'
+  }
 
-let nbs = {
-  'url': '/assets/nallabotla_sethuva.webp',
-  'text': 'నల్లబొట్ల సేతువ'
-}
+  , nbs: {
+    'url': '/assets/nallabotla_sethuva.webp',
+    'text': 'నల్లబొట్ల సేతువ'
+  }
 
-let budidha_rangu_maila = {
-  'url': '/assets/budidha_rangu_maila.webp',
-  'text': 'నల్ల కోడి చూపు మైల'
-}
+  , budidha_rangu_maila: {
+    'url': '/assets/budidha_rangu_maila.webp',
+    'text': 'నల్ల కోడి చూపు మైల'
+  }
 
-let black_kekkira = {
-  'url': '/assets/nalla_kekkirayi.webp',
-  'text': 'నల్ల కోడి కొక్కిరాయి'
-}
+  , black_kekkira: {
+    'url': '/assets/nalla_kekkirayi.webp',
+    'text': 'నల్ల కోడి కొక్కిరాయి'
+  }
 
-let bk = {
-  'url': '/assets/nalla_kekkira.jpeg',
-  'text': 'నల్ల కొక్కిరాయి'
-}
+  , bk: {
+    'url': '/assets/nalla_kekkira.jpeg',
+    'text': 'నల్ల కొక్కిరాయి'
+  }
 
-let kodi_nemili = {
-  'url': '/assets/kodi_nemali_3.jpeg',
-  'text': 'కోడి నెమలి'
-}
+  , kodi_nemili: {
+    'url': '/assets/kodi_nemali_3.jpeg',
+    'text': 'కోడి నెమలి'
+  }
 
-let white_kekkira = {
-  'url': '/assets/thella_kekkirayi.jpeg',
-  'text': 'తెల్ల కోడి కొక్కిరాయి'
-}
+  , white_kekkira: {
+    'url': '/assets/thella_kekkirayi.jpeg',
+    'text': 'తెల్ల కోడి కొక్కిరాయి'
+  }
 
-let goudu_nemali = {
-  'url': '/assets/pichukupoda_nemali.jpeg',
-  'text': 'గౌడు నెమలి'
-}
+  , goudu_nemali: {
+    'url': '/assets/pichukupoda_nemali.jpeg',
+    'text': 'గౌడు నెమలి'
+  }
 
-let pettamari_k = {
-  'url': '/assets/kaki_pettamari2.webp',
-  'text': 'కాకి పెట్టమరి'
-}
+  , pettamari_k: {
+    'url': '/assets/kaki_pettamari2.webp',
+    'text': 'కాకి పెట్టమరి'
+  }
 
-let pacha_pettemaru = {
-  'url': '/assets/pacha_kaki_pettamari.jpeg',
-  'text': 'పచ్చ కాకి పెట్టమరి'
-}
+  , pacha_pettemaru: {
+    'url': '/assets/pacha_kaki_pettamari.jpeg',
+    'text': 'పచ్చ కాకి పెట్టమరి'
+  }
 
-let kaaaki = {
-  'url': '/assets/kaki.jpeg',
-  'text': 'కాకి'
-}
+  , kaaaki: {
+    'url': '/assets/kaki.jpeg',
+    'text': 'కాకి'
+  }
 
-let n_d = {
-  'url': '/assets/nemali_dega.jpeg',
-  'text': 'నెమలి డేగ'
-}
+  , n_d: {
+    'url': '/assets/nemali_dega.jpeg',
+    'text': 'నెమలి డేగ'
+  }
 
-let er_maila = {
-  'url': '/assets/erra_maila.jpeg',
-  'text': 'ఎర్ర మైల'
-}
+  , er_maila: {
+    'url': '/assets/erra_maila.jpeg',
+    'text': 'ఎర్ర మైల'
+  }
 
-let n_abras = {
-  'url': '/assets/nemali_abrass.jpeg',
-  'text': 'నెమలి అబ్రసు'
-}
+  , n_abras: {
+    'url': '/assets/nemali_abrass.jpeg',
+    'text': 'నెమలి అబ్రసు'
+  }
 
-let org_deg = {
-  'url': '/assets/dega_original.jpeg',
-  'text': 'డేగ'
-}
+  , org_deg: {
+    'url': '/assets/dega_original.jpeg',
+    'text': 'డేగ'
+  }
 
-let erra_kekkirai = {
-  'url': '/assets/erra_kekkirayi.jpeg',
-  'text': 'ఎర్ర కొక్కిరాయి'
-}
+  , erra_kekkirai: {
+    'url': '/assets/erra_kekkirayi.jpeg',
+    'text': 'ఎర్ర కొక్కిరాయి'
+  }
 
-let geruva = {
-  'url': '/assets/geruva.png',
-  'text': 'గెరువ'
-}
+  , geruva: {
+    'url': '/assets/geruva.png',
+    'text': 'గెరువ'
+  }
 
-let t_bunga_p_k = {
-  'url': '/assets/kodi_chupu_pasimi_gala_pacha_kaki.webp',
-  'text': 'తెల్ల బుంగ పచ్చ కాకి'
+  , t_bunga_p_k: {
+    'url': '/assets/kodi_chupu_pasimi_gala_pacha_kaki.webp',
+    'text': 'తెల్ల బుంగ పచ్చ కాకి'
+  }
 }
 
 function getNameInfo(name) {
-  switch (true) {
-    case name.includes("kodi_kaki"):
-      return kodi_kaki;
-    case name.includes("erra_kaki_dega"):
-      return erra_kaki_dega;
-    case name.includes("sethuva"):
-      return sethuva;
-    case name.includes("kodi_pacha_kaki"):
-      return kodi_pacha_kaki;
-    case name.includes("thella_kodi_kekkirayi"):
-      return thella_kodi_kekkirayi;
-    case name.includes("kodi_rasangi"):
-      return kodi_rasangi;
-    case name.includes("poola_rasangi"):
-      return poola_rasangi;
-    case name.includes("kattu_kaki"):
-      return kattu_kaki;
-    case name.includes("kade_parla"):
-      return kaki_dega_parla;
-    case name.includes("erupu_minchina_getti_kaki"):
-      return erupu_minchina_getti_kaki;
-    case name.includes("nemali_pingala"):
-      return nemali_pingala;
-    case name.includes("thella_nemali"):
-      return thella_nemali;
-    case name.includes("pala_abrass"):
-      return pala_abrass;
-    case name.includes("nemali_poola"):
-      return nemali_poola;
-    case name.includes("kodi_dega"):
-      return kodi_dega;
-    case name.includes("errabotlu"):
-      return errabotlu;
-    case name.includes("erra_kodi_kekkirayi"):
-      return erra_kodi_kekkirayi;
-    case name.includes("kaki_nemali"):
-      return kaki_nemali;
-    case name.includes("pacha_kaki"):
-      return pacha_kaki;
-    case name.includes("nemali_maila"):
-      return nemali_maila;
-    case name.includes("kodi_pingali"):
-      return kodi_pingali;
-    case name.includes("kaki"):
-      return kaki;
-    case name.includes("np_abrass"):
-      return np_abrass;
-    case name.includes("dega"):
-      return dega;
-    case name.includes("erupu_kaki_nemali"):
-      return erupu_kaki_nemali;
-    case name.includes("nemali_daga"):
-      return nemali_daga;
-    case name.includes("nalla_savala"):
-      return nalla_savala;
-    case name.includes("kodi_chupu_kn"):
-      return kodi_chupu_kn;
-    case name.includes("kodi_chupu_kd"):
-      return kodi_chupu_kd;
-    case name.includes("nbs"):
-      return nbs;
-    case name.includes("budidha_rangu_maila"):
-      return budidha_rangu_maila;
-    case name.includes("black_kekkira"):
-      return black_kekkira;
-    case name.includes("kodi_nemili"):
-      return kodi_nemili;
-    case name.includes("white_kekkira"):
-      return white_kekkira;
-    case name.includes("goudu_nemali"):
-      return goudu_nemali;
-    case name.includes("pettamari_k"):
-      return pettamari_k;
-    case name.includes("kaaaki"):
-      return kaaaki;
-    case name.includes("bk"):
-      return bk;
-    case name.includes("n_d"):
-      return n_d;
-    case name.includes("er_maila"):
-      return er_maila;
-    case name.includes("n_abras"):
-      return n_abras;
-    case name.includes("org_deg"):
-      return org_deg;
-    case name.includes("erra_kekkirai"):
-      return erra_kekkirai;
-    case name.includes("geruva"):
-      return geruva;
-    case name.includes("t_bunga_p_k"):
-      return t_bunga_p_k;
-    case name.includes("pacha_pettemaru"):
-      return pacha_pettemaru;
-
-    default:
-      return {};
-  }
+  return roosterMap[name] || roosterMap['t_bunga_p_k'];
 }
 
 
@@ -341,21 +248,22 @@ function getNameInfo(name) {
 
 const kodi_pingala_jamu = 
 {
-  'header': getTimingText("0") + "🏆 " + getTranslated("kodi_pingala") + " 🏆" + '\n' + 'కోడి పింగళ వంతులో పెట్టుకోవాల్సిన రంగులు ↓',
-  '1': getNameInfo("kodi_kaki"),
+  'header': getTimingText("4") + "🏆 " + getTranslated("kodi_pingala") + " 🏆" + '\n' + 'కోడి పింగళ వంతులో పెట్టుకోవాల్సిన రంగులు ↓',
+  
+  '1': getNameInfo("thella_kodi_kekkirayi"),
 
-  '2': getNameInfo("thella_kodi_kekkirayi"),
+  '2': getNameInfo("poola_rasangi"),
 
-  '3': getNameInfo("poola_rasangi"),
+  '3': getNameInfo("kodi_pingali"),
 
-  '4': getNameInfo("kodi_pingali"),
+  '4': getNameInfo("kodi_pacha_kaki"),
 
-  '5': getNameInfo("kodi_pacha_kaki")
+  '5': getNameInfo("kodi_kaki"),
 }
 
 
 const kaki_dega_jamu = {
-  'header': getTimingText("0") + "🏆 " + getTranslated("kaki_dega") + " 🏆" + '\n' + getTranslated("kaki_dega") + ' వంతులో పెట్టుకోవాల్సిన రంగులు ↓',
+  'header': getTimingText("5") + "🏆 " + getTranslated("kaki_dega") + " 🏆" + '\n' + getTranslated("kaki_dega") + ' వంతులో పెట్టుకోవాల్సిన రంగులు ↓',
   
   '1': getNameInfo("kaki"), 
 
@@ -370,7 +278,8 @@ const kaki_dega_jamu = {
 
 
 const nemali_pingala_jamu = {
-  'header': getTimingText("0") + "🏆 " + getTranslated("nemali_pingala") + " 🏆" + '\n' + getTranslated("nemali_pingala") + ' వంతులో పెట్టుకోవాల్సిన రంగులు ↓',
+  'header': getTimingText("1") + "🏆 " + getTranslated("nemali_pingala") + " 🏆" + '\n' + getTranslated("nemali_pingala") + ' వంతులో పెట్టుకోవాల్సిన రంగులు ↓',
+  "lakshana": "Test 1",
 
   '1': getNameInfo("nemali_pingala"),
 
@@ -385,7 +294,7 @@ const nemali_pingala_jamu = {
 
 
 const kodi_dega_jamu = {
-  'header': getTimingText("0") + "🏆 " + getTranslated("kodi_dega") + " 🏆" + '\n' + getTranslated("kodi_dega") + ' వంతులో పెట్టుకోవాల్సిన రంగులు ↓',
+  'header': getTimingText("2") + "🏆 " + getTranslated("kodi_dega") + " 🏆" + '\n' + getTranslated("kodi_dega") + ' వంతులో పెట్టుకోవాల్సిన రంగులు ↓',
   '1': getNameInfo("kodi_dega"),
 
   '2': getNameInfo("dega"),
@@ -399,7 +308,7 @@ const kodi_dega_jamu = {
 }
 
 const kaki_nemali_jamu = {
-  'header': getTimingText("0") + "🏆 " + getTranslated("kaki_nemali") + " 🏆" + '\n' + getTranslated("kaki_nemali")+ ' వంతులో పెట్టుకోవాల్సిన రంగులు ↓',
+  'header': getTimingText("3") + "🏆 " + getTranslated("kaki_nemali") + " 🏆" + '\n' + getTranslated("kaki_nemali")+ ' వంతులో పెట్టుకోవాల్సిన రంగులు ↓',
 
   '1': getNameInfo("kaki_nemali"),
 
@@ -416,7 +325,7 @@ const kaki_nemali_jamu = {
 
 
 const kodi_kaki_jamu = {
-  'header': getTimingText("5") + "🏆 " + getTranslated("kodi_kaki") + " 🏆" + '\n' + getTranslated("kodi_kaki")+ ' వంతులో పెట్టుకోవాల్సిన రంగులు ↓',
+  'header': getTimingText("0") + "🏆 " + getTranslated("kodi_kaki") + " 🏆" + '\n' + getTranslated("kodi_kaki")+ ' వంతులో పెట్టుకోవాల్సిన రంగులు ↓',
 
   '1': getNameInfo("kodi_kaki"),
 
@@ -436,7 +345,7 @@ const kodi_kaki_jamu = {
 
 
 const kodi_nemali_jamu = {
-  'header': getTimingText("3") + "🏆 " + getTranslated("kodi_nemali") + " 🏆" + '\n' + getTranslated("kodi_nemali")+ ' వంతులో పెట్టుకోవాల్సిన రంగులు ↓',
+  'header': getTimingText("0") + "🏆 " + getTranslated("kodi_nemali") + " 🏆" + '\n' + getTranslated("kodi_nemali")+ ' వంతులో పెట్టుకోవాల్సిన రంగులు ↓',
 
   '1': getNameInfo("kodi_nemili"),
 
@@ -448,7 +357,7 @@ const kodi_nemali_jamu = {
 
 
 const nemali_dega_jamu = {
-  'header': getTimingText("1") + "🏆 " + getTranslated("nemali_dega") + " 🏆" + '\n' + getTranslated("nemali_dega")+ ' వంతులో పెట్టుకోవాల్సిన రంగులు ↓',
+  'header': getTimingText("0") + "🏆 " + getTranslated("nemali_dega") + " 🏆" + '\n' + getTranslated("nemali_dega")+ ' వంతులో పెట్టుకోవాల్సిన రంగులు ↓',
 
   '1': getNameInfo("n_d"),
 
@@ -460,7 +369,7 @@ const nemali_dega_jamu = {
 
 
 const kaki_pingali_jamu = {
-  'header': getTimingText("2") + "🏆 " + getTranslated("kaki_pingala") + " 🏆" + '\n' + getTranslated("kaki_pingala")+ ' వంతులో పెట్టుకోవాల్సిన రంగులు ↓',
+  'header': getTimingText("0") + "🏆 " + getTranslated("kaki_pingala") + " 🏆" + '\n' + getTranslated("kaki_pingala")+ ' వంతులో పెట్టుకోవాల్సిన రంగులు ↓',
 
   '1': getNameInfo("kaaaki"),
 
@@ -480,7 +389,7 @@ const kaki_pingali_jamu = {
 
 
 const dega_pingala_jamu = {
-  'header': getTimingText("4") + "🏆 " + getTranslated("dega_pingala") + " 🏆" + '\n' + getTranslated("dega_pingala")+ ' వంతులో పెట్టుకోవాల్సిన రంగులు ↓',
+  'header': getTimingText("0") + "🏆 " + getTranslated("dega_pingala") + " 🏆" + '\n' + getTranslated("dega_pingala")+ ' వంతులో పెట్టుకోవాల్సిన రంగులు ↓',
 
   '1': getNameInfo("org_deg"),
 
@@ -499,39 +408,43 @@ const dega_pingala_jamu = {
 
 const last_jamu = 
 {
-  'header': getTimingText("6") + "🏆 " + getTranslated("nemali_dega") + " 🏆" + '\n' + getTranslated("nemali_dega")+ ' వంతులో పెట్టుకోవాల్సిన రంగులు ↓',
+  'header': getTimingText("6") + "🏆 " + getTranslated("nemali_pingala") + " 🏆" + '\n' + getTranslated("nemali_pingala") + ' వంతులో పెట్టుకోవాల్సిన రంగులు ↓',
 
-  '1': getNameInfo("n_d"),
+  '1': getNameInfo("nemali_pingala"),
 
-  '2': getNameInfo("nemali_maila"),
+  '2': getNameInfo("np_abrass"),
 
-  '3': getNameInfo("er_maila"),
+  '3': getNameInfo("thella_nemali"),
+
+  '4': getNameInfo("pala_abrass"),
+
+  '5': getNameInfo("nemali_poola")
 
 }
 
 
 const jsonData = {
-    'morning6' : nemali_dega_jamu,
+    'morning6' : nemali_pingala_jamu,
 
-    'morning8' : kaki_pingali_jamu,
+    'morning8' : kodi_dega_jamu,
   
-    'morning10' : kodi_nemali_jamu,
+    'morning10' : kaki_nemali_jamu,
   
-    'afternoon1' : dega_pingala_jamu,
+    'afternoon1' : kodi_pingala_jamu,
   
-    'afternoon3' : kodi_kaki_jamu,
+    'afternoon3' : kaki_dega_jamu,
 
     'evening' : last_jamu
   }
 
 
-  // మే 19 శుక్రవారం (ముసుగు పంధాలకి మాత్రమే పని చేసే రంగులు)
-  // 6:15am to 8:30am -> (నెమలి డేగ) గెలుస్తోంది
-  // 8:30am to 10:45am ->  (కాకి పింగళి)  గెలుస్తోంది
-  // 10:45am to 1pm -> (కోడి నెమలి) గెలుస్తోంది
-  // 1pm to 3:15pm -> (డేగ పింగళి) గెలుస్తోంది
-  // 3:15pm to 5:30pm -> (కోడి కాకి) గెలుస్తోంది
-  // 5:30pm నుండి -> (నెమలి డేగ) గెలుస్తోంది <-- (రాత్రి పూట పని చేసే రంగులు)
+  // మే 20 శనివారం (ముసుగు పంధాలకి మాత్రమే పని చేసే రంగులు)
+  // 6:15am to 8:30am -> (నెమలి పింగళి) గెలుస్తోంది
+  // 8:30am to 10:45am ->  (కోడి డేగ)  గెలుస్తోంది
+  // 10:45am to 1pm -> (కాకి నెమలి) గెలుస్తోంది
+  // 1pm to 3:15pm -> (కోడి పింగళి) గెలుస్తోంది
+  // 3:15pm to 5:30pm -> (కాకి డేగ) గెలుస్తోంది
+  // 5:30pm నుండి -> (నెమలి పింగళి) గెలుస్తోంది <-- (రాత్రి పూట పని చేసే రంగులు)
 
 
 function getTranslated(name) {  

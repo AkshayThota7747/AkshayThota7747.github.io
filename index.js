@@ -1,10 +1,18 @@
+
+// Calendar section
+const months = [ 'జనవరి' , 'ఫిబ్రవరి', 'మార్చి', 'ఏప్రిల్', 'మే', 'జూన్', 'జులై', 'ఆగస్ట్', 'సెప్టెంబర్' , 'అక్టోబర్' , 'నవంబర్' , 'డిసెంబర్'],
+  days = [ 'ఆదివారం', 'సోమవారం', 'మంగళవారం', 'బుధవారం', 'గురువారం', 'శుక్రవారం', 'శనివారం' ],
+  dateObj = new Date();
+document.getElementById("calendar").textContent =  `🏆🏆🏆ఈరోజు ${months[dateObj.getMonth()]} ${dateObj.getDate()} ${days[dateObj.getDay()]} గెలిచే రంగులు🏆🏆🏆`;
+
+
 function createElement(tagName, className) {
     const result = document.createElement(tagName);
     if (className !== undefined) result.className = className;
     return result;
   }
   
-  function createCarousel (header, dataArray) {
+  function createCarousel (header, dataArray, lakshana) {
   
     let currentIndex = 0;
   
@@ -46,12 +54,14 @@ function createElement(tagName, className) {
     const imgArray = dataArray.map(({url, text}, idx) => {
       const mySlides = createElement('div', 'mySlides fade'),
         img = createElement('img', 'pic'),
-        textElement = createElement('div', 'text');
+        textElement = createElement('div', 'text'),
+        lakshanaText = createElement('div', 'lakshana');
   
       img.src = url;
       textElement.innerText = text;
+      lakshanaText.innerText = lakshana;
   
-      mySlides.append(img, textElement);
+      mySlides.append(img, textElement, lakshanaText);
   
       if (currentIndex === idx)
         mySlides.classList.add('show-slide');
@@ -83,12 +93,12 @@ function createElement(tagName, className) {
   
   Object.values(jsonData).forEach(item => {
     const data = Object.keys(item).reduce((acc, key) => {
-      if (key !== 'header') acc.push(item[key]);
+      if (key !== 'header' && key !== 'lakshana') acc.push(item[key]);
       return acc;
     }, []);
   
   
-    document.body.insertBefore(createCarousel(item.header, data), lastText);
+    document.body.insertBefore(createCarousel(item.header, data, item.lakshana), lastText);
   
     // document.body.append()
   });
