@@ -12,7 +12,7 @@ function createElement(tagName, className) {
     return result;
   }
   
-  function createCarousel (header, dataArray, lakshana) {
+  function createCarousel (header, dataArray, lakshana, idx) {
   
     let currentIndex = 0;
   
@@ -79,10 +79,14 @@ function createElement(tagName, className) {
   
       return dot;
     });
+
+
+    const numberRound = createElement('div', 'number');
+    numberRound.innerText = idx;
   
     slideshowContainer.append(h4, ...imgArray, prev, next);
     dotHolder.append(...dotArray);
-    container.append(slideshowContainer, dotHolder);
+    container.append(slideshowContainer, dotHolder, numberRound);
   
     updatePhotoIndex(currentIndex);
   
@@ -91,17 +95,16 @@ function createElement(tagName, className) {
   
   const lastText = document.getElementById('last-text');
   
-  Object.values(jsonData).forEach(item => {
+  Object.values(jsonData).forEach((item, idx) => {
     const data = Object.keys(item).reduce((acc, key) => {
       if (key !== 'header' && key !== 'lakshana') acc.push(item[key]);
       return acc;
     }, []);
   
   
-    document.body.insertBefore(createCarousel(item.header, data, item.lakshana), lastText);
+    document.body.insertBefore(createCarousel(item.header, data, item.lakshana, idx + 1), lastText);
   
     // document.body.append()
   });
-  
   
   
