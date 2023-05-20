@@ -3,7 +3,8 @@
 const months = [ 'జనవరి' , 'ఫిబ్రవరి', 'మార్చి', 'ఏప్రిల్', 'మే', 'జూన్', 'జులై', 'ఆగస్ట్', 'సెప్టెంబర్' , 'అక్టోబర్' , 'నవంబర్' , 'డిసెంబర్'],
   days = [ 'ఆదివారం', 'సోమవారం', 'మంగళవారం', 'బుధవారం', 'గురువారం', 'శుక్రవారం', 'శనివారం' ],
   dateObj = new Date();
-document.getElementById("calendar").textContent =  `🏆🏆🏆ఈరోజు ${months[dateObj.getMonth()]} ${dateObj.getDate()} ${days[dateObj.getDay()]} గెలిచే రంగులు🏆🏆🏆`;
+// document.getElementById("calendar").textContent =  `🏆🏆🏆 ${months[dateObj.getMonth()]} ${dateObj.getDate()} ${days[dateObj.getDay()]} గెలిచే రంగులు🏆🏆🏆`;
+document.getElementById("calendar").textContent =  `🏆🏆🏆 మే 21 ఆదివారం గెలిచే రంగులు🏆🏆🏆`;
 
 
 function createElement(tagName, className) {
@@ -106,5 +107,3 @@ function createElement(tagName, className) {
   
     // document.body.append()
   });
-  
-  
