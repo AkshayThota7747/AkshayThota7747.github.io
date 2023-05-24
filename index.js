@@ -46,8 +46,8 @@ function createElement(tagName, className) {
   
     h4.innerText = header;
     h4.innerText = header;
-    prev.innerText = '❮';
-    next.innerText = '❯';
+    prev.innerText = '◀';
+    next.innerText = '▶';
   
     prev.addEventListener('click', function () { updatePhotoIndex(--currentIndex); });
     next.addEventListener('click', function () { updatePhotoIndex(++currentIndex); });
