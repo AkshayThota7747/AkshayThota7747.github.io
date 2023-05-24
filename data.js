@@ -85,6 +85,11 @@ const roosterMap =
     'text': 'పచ్చ కాకి'
   }
 
+  , pacha_kaki_org: {
+    'url': '/assets/pacha_kaki_2.webp',
+    'text': 'పచ్చ కాకి'
+  }
+
   , nemali_maila: {
     'url': '/assets/nemali_maila_new.jpeg',
     'text': 'నెమలి మైల'
@@ -320,7 +325,7 @@ const kaki_nemali_jamu = {
 
   '5': getNameInfo("nemali_daga"),
 
-  '6': getNameInfo("pacha_kaki"),
+  '6': getNameInfo("pacha_kaki_org"),
 }
 
 
