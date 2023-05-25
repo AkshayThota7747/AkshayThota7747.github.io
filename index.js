@@ -4,7 +4,7 @@ const months = [ 'జనవరి' , 'ఫిబ్రవరి', 'మార్�
   days = [ 'ఆదివారం', 'సోమవారం', 'మంగళవారం', 'బుధవారం', 'గురువారం', 'శుక్రవారం', 'శనివారం' ],
   dateObj = new Date();
 // document.getElementById("calendar").textContent =  `🏆🏆🏆 ${months[dateObj.getMonth()]} ${dateObj.getDate()} ${days[dateObj.getDay()]} గెలిచే రంగులు🏆🏆🏆`;
-document.getElementById("calendar").textContent =  `🏆🏆🏆 మే 25 గురువారం గెలిచే రంగులు🏆🏆🏆`;
+document.getElementById("calendar").textContent =  `🏆🏆🏆 మే 26 శుక్రవారం గెలిచే రంగులు🏆🏆🏆`;
 
 
 function createElement(tagName, className) {
@@ -46,8 +46,8 @@ function createElement(tagName, className) {
   
     h4.innerText = header;
     h4.innerText = header;
-    prev.innerText = '◀';
-    next.innerText = '▶';
+    prev.innerText = '❮';
+    next.innerText = '❯';
   
     prev.addEventListener('click', function () { updatePhotoIndex(--currentIndex); });
     next.addEventListener('click', function () { updatePhotoIndex(++currentIndex); });
