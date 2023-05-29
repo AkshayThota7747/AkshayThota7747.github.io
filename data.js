@@ -253,7 +253,7 @@ function getNameInfo(name) {
 
 const kodi_pingala_jamu = 
 {
-  'header': getTimingText("1") + "🏆 " + getTranslated("kodi_pingala") + " 🏆" + '\n' + 'కోడి పింగళ వంతులో పెట్టుకోవాల్సిన రంగులు ↓',
+  'header': getTimingText("5") + "🏆 " + getTranslated("kodi_pingala") + " 🏆" + '\n' + 'కోడి పింగళ వంతులో పెట్టుకోవాల్సిన రంగులు ↓',
   
   '1': getNameInfo("sethuva"),
 
@@ -270,7 +270,7 @@ const kodi_pingala_jamu =
 
 
 const kaki_dega_jamu = {
-  'header': getTimingText("2") + "🏆 " + getTranslated("kaki_dega") + " 🏆" + '\n' + getTranslated("kaki_dega") + ' వంతులో పెట్టుకోవాల్సిన రంగులు ↓',
+  'header': getTimingText("1") + "🏆 " + getTranslated("kaki_dega") + " 🏆" + '\n' + getTranslated("kaki_dega") + ' వంతులో పెట్టుకోవాల్సిన రంగులు ↓',
   
   '1': getNameInfo("kaki"), 
 
@@ -285,7 +285,7 @@ const kaki_dega_jamu = {
 
 
 const nemali_pingala_jamu = {
-  'header': getTimingText("3") + "🏆 " + getTranslated("nemali_pingala") + " 🏆" + '\n' + getTranslated("nemali_pingala") + ' వంతులో పెట్టుకోవాల్సిన రంగులు ↓',
+  'header': getTimingText("2") + "🏆 " + getTranslated("nemali_pingala") + " 🏆" + '\n' + getTranslated("nemali_pingala") + ' వంతులో పెట్టుకోవాల్సిన రంగులు ↓',
   "lakshana": "Test 1",
 
   '1': getNameInfo("nemali_pingala"),
@@ -301,7 +301,7 @@ const nemali_pingala_jamu = {
 
 
 const kodi_dega_jamu = {
-  'header': getTimingText("4") + "🏆 " + getTranslated("kodi_dega") + " 🏆" + '\n' + getTranslated("kodi_dega") + ' వంతులో పెట్టుకోవాల్సిన రంగులు ↓',
+  'header': getTimingText("3") + "🏆 " + getTranslated("kodi_dega") + " 🏆" + '\n' + getTranslated("kodi_dega") + ' వంతులో పెట్టుకోవాల్సిన రంగులు ↓',
   '1': getNameInfo("kodi_dega"),
 
   '2': getNameInfo("dega"),
@@ -315,7 +315,7 @@ const kodi_dega_jamu = {
 }
 
 const kaki_nemali_jamu = {
-  'header': getTimingText("5") + "🏆 " + getTranslated("kaki_nemali") + " 🏆" + '\n' + getTranslated("kaki_nemali")+ ' వంతులో పెట్టుకోవాల్సిన రంగులు ↓',
+  'header': getTimingText("4") + "🏆 " + getTranslated("kaki_nemali") + " 🏆" + '\n' + getTranslated("kaki_nemali")+ ' వంతులో పెట్టుకోవాల్సిన రంగులు ↓',
 
   '1': getNameInfo("kaki_nemali"),
 
@@ -415,33 +415,31 @@ const dega_pingala_jamu = {
 
 const last_jamu = 
 {
-  'header': getTimingText("6") + "🏆 " + getTranslated("kodi_pingala") + " 🏆" + '\n' + getTranslated("kodi_pingala") + ' వంతులో పెట్టుకోవాల్సిన రంగులు ↓',
+  'header': getTimingText("6") + "🏆 " + getTranslated("kaki_dega") + " 🏆" + '\n' + getTranslated("kaki_dega") + ' వంతులో పెట్టుకోవాల్సిన రంగులు ↓',
 
-  '1': getNameInfo("sethuva"),
+  '1': getNameInfo("kaki"), 
 
-  '2': getNameInfo("thella_kodi_kekkirayi"),
+  '2': getNameInfo("kattu_kaki"), 
+  
+  '3': getNameInfo("erra_kaki_dega"), 
 
-  '3': getNameInfo("poola_rasangi"),
+  '4': getNameInfo("erupu_minchina_getti_kaki"),
 
-  '4': getNameInfo("kodi_pingali"),
-
-  '5': getNameInfo("kodi_pacha_kaki"),
-
-  '6': getNameInfo("kodi_kaki"),
+  '5': getNameInfo("kaki_dega_parla")
 
 }
 
 
 const jsonData = {
-    'morning6' : kodi_pingala_jamu,
+    'morning6' : kaki_dega_jamu,
 
-    'morning8' : kaki_dega_jamu,
+    'morning8' : nemali_pingala_jamu,
   
-    'morning10' : nemali_pingala_jamu,
+    'morning10' : kodi_dega_jamu,
   
-    'afternoon1' : kodi_dega_jamu,
+    'afternoon1' : kaki_nemali_jamu,
   
-    'afternoon3' : kaki_nemali_jamu,
+    'afternoon3' : kodi_pingala_jamu,
 
     'evening' : last_jamu
   }
