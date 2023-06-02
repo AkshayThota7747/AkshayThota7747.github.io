@@ -13,7 +13,7 @@ function createElement(tagName, className) {
     return result;
   }
   
-  function createCarousel (header, dataArray, lakshana, idx) {
+  function createCarousel (header, dataArray, winLakshana, losingLakshana, idx) {
   
     let currentIndex = 0;
   
@@ -56,13 +56,15 @@ function createElement(tagName, className) {
       const mySlides = createElement('div', 'mySlides fade'),
         img = createElement('img', 'pic'),
         textElement = createElement('div', 'text'),
-        lakshanaText = createElement('div', 'lakshana');
+        winLakshanaText = createElement('div', 'winLakshana');
+        losingLakshanaText = createElement('div', 'losingLakshana');
   
       img.src = url;
       textElement.innerText = text;
-      lakshanaText.innerText = lakshana;
+      winLakshanaText.innerText = winLakshana;
+      losingLakshanaText.innerText = losingLakshana;
   
-      mySlides.append(img, textElement, lakshanaText);
+      mySlides.append(img, textElement, winLakshanaText , losingLakshanaText);
   
       if (currentIndex === idx)
         mySlides.classList.add('show-slide');
@@ -98,12 +100,12 @@ function createElement(tagName, className) {
   
   Object.values(jsonData).forEach((item, idx) => {
     const data = Object.keys(item).reduce((acc, key) => {
-      if (key !== 'header' && key !== 'lakshana') acc.push(item[key]);
+      if (key !== 'header' && key !== 'winLakshana' && key !== 'losingLakshana') acc.push(item[key]);
       return acc;
     }, []);
   
   
-    document.body.insertBefore(createCarousel(item.header, data, item.lakshana, idx + 1), lastText);
+    document.body.insertBefore(createCarousel(item.header, data, item.winLakshana , item.losingLakshana , idx + 1), lastText);
   
     // document.body.append()
   });
