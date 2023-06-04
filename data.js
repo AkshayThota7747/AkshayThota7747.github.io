@@ -352,7 +352,7 @@ const kaki_nemali_jamu = {
 
 
 const kodi_kaki_jamu = {
-  'header': getTimingText("0") + "🏆 " + getTranslated("kodi_kaki") + " 🏆" + '\n' + getTranslated("kodi_kaki")+ ' వంతులో పెట్టుకోవాల్సిన రంగులు ↓',
+  'header': getTimingText("3") + "🏆 " + getTranslated("kodi_kaki") + " 🏆" + '\n' + getTranslated("kodi_kaki")+ ' వంతులో పెట్టుకోవాల్సిన రంగులు ↓',
 
   "winLakshana": "విన్నింగ్ లక్షణాలు ✅ : లోపల తెల్ల బుంగ ఉండాలి, పైనా బిరుసు ఉన్నవి గెలుచును.",
   
@@ -376,7 +376,7 @@ const kodi_kaki_jamu = {
 
 
 const kodi_nemali_jamu = {
-  'header': getTimingText("0") + "🏆 " + getTranslated("kodi_nemali") + " 🏆" + '\n' + getTranslated("kodi_nemali")+ ' వంతులో పెట్టుకోవాల్సిన రంగులు ↓',
+  'header': getTimingText("1") + "🏆 " + getTranslated("kodi_nemali") + " 🏆" + '\n' + getTranslated("kodi_nemali")+ ' వంతులో పెట్టుకోవాల్సిన రంగులు ↓',
 
   "winLakshana": "విన్నింగ్ లక్షణాలు ✅ : లోపల తెల్ల బుంగ ఉండాలి, పైనా బిరుసు ఉన్నవి గెలుచును.",
   
@@ -392,7 +392,7 @@ const kodi_nemali_jamu = {
 
 
 const nemali_dega_jamu = {
-  'header': getTimingText("0") + "🏆 " + getTranslated("nemali_dega") + " 🏆" + '\n' + getTranslated("nemali_dega")+ ' వంతులో పెట్టుకోవాల్సిన రంగులు ↓',
+  'header': getTimingText("4") + "🏆 " + getTranslated("nemali_dega") + " 🏆" + '\n' + getTranslated("nemali_dega")+ ' వంతులో పెట్టుకోవాల్సిన రంగులు ↓',
 
   "winLakshana": "విన్నింగ్ లక్షణాలు ✅ : లోపల గెట్టి కుసి, పైనా బిరుసు ఉన్నవి గెలుచును.",
   
@@ -408,7 +408,7 @@ const nemali_dega_jamu = {
 
 
 const kaki_pingali_jamu = {
-  'header': getTimingText("0") + "🏆 " + getTranslated("kaki_pingala") + " 🏆" + '\n' + getTranslated("kaki_pingala")+ ' వంతులో పెట్టుకోవాల్సిన రంగులు ↓',
+  'header': getTimingText("5") + "🏆 " + getTranslated("kaki_pingala") + " 🏆" + '\n' + getTranslated("kaki_pingala")+ ' వంతులో పెట్టుకోవాల్సిన రంగులు ↓',
 
   "winLakshana": "విన్నింగ్ లక్షణాలు ✅ : లోపల నల్ల కుసి ఉండాలి, పైనా మేతదానం ఉన్నవి గెలుచును.",
   
@@ -432,7 +432,7 @@ const kaki_pingali_jamu = {
 
 
 const dega_pingala_jamu = {
-  'header': getTimingText("0") + "🏆 " + getTranslated("dega_pingala") + " 🏆" + '\n' + getTranslated("dega_pingala")+ ' వంతులో పెట్టుకోవాల్సిన రంగులు ↓',
+  'header': getTimingText("2") + "🏆 " + getTranslated("dega_pingala") + " 🏆" + '\n' + getTranslated("dega_pingala")+ ' వంతులో పెట్టుకోవాల్సిన రంగులు ↓',
 
   "winLakshana": "విన్నింగ్ లక్షణాలు ✅ : లోపల గెట్టి కుసి ఉండాలి, పైనా మేతదానం ఉన్నవి గెలుచును.",
   
@@ -455,35 +455,31 @@ const dega_pingala_jamu = {
 
 const last_jamu = 
 {
-  'header': getTimingText("6") + "🏆 " + getTranslated("kaki_dega") + " 🏆" + '\n' + getTranslated("kaki_dega") + ' వంతులో పెట్టుకోవాల్సిన రంగులు ↓',
+  'header': getTimingText("6") + "🏆 " + getTranslated("kodi_nemali") + " 🏆" + '\n' + getTranslated("kodi_nemali") + ' వంతులో పెట్టుకోవాల్సిన రంగులు ↓',
 
-  "winLakshana": "విన్నింగ్ లక్షణాలు ✅ : లోపల నల్లకుసి ఉండాలి, పైనా ఎరుపు ఉన్నవి గెలుచును",
+  "winLakshana": "విన్నింగ్ లక్షణాలు ✅ : లోపల తెల్ల బుంగ ఉండాలి, పైనా బిరుసు ఉన్నవి గెలుచును.",
   
-  "losingLakshana": "లాసింగ్ లక్షణాలు ❌ : లోపల తెల్లదనం, పైనా మేతదానం ఉన్నవి ఓటమి పాలు అవును",
-  
-  '1': getNameInfo("kaki"), 
+  "losingLakshana": "లాసింగ్ లక్షణాలు ❌ : లోపల గెట్టి కుసి ఉండాలి, పైనా మేతదనం ఉన్నవి ఓటమి పాలు అవును.",
 
-  '2': getNameInfo("kattu_kaki"), 
-  
-  '3': getNameInfo("erra_kaki_dega"), 
+  '1': getNameInfo("kodi_nemili"),
 
-  '4': getNameInfo("erupu_minchina_getti_kaki"),
+  '2': getNameInfo("white_kekkira"),
 
-  '5': getNameInfo("kaki_dega_parla")
+  '3': getNameInfo("t_bunga_p_k"),
 
 }
 
 
 const jsonData = {
-    'morning6' : kaki_dega_jamu,
+    'morning6' : kodi_nemali_jamu,
 
-    'morning8' : nemali_pingala_jamu,
+    'morning8' : dega_pingala_jamu,
   
-    'morning10' : kodi_dega_jamu,
+    'morning10' : kodi_kaki_jamu,
   
-    'afternoon1' : kaki_nemali_jamu,
+    'afternoon1' : nemali_dega_jamu,
   
-    'afternoon3' : kodi_pingala_jamu,
+    'afternoon3' : kaki_pingali_jamu,
 
     'evening' : last_jamu
   }
