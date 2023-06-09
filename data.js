@@ -262,7 +262,7 @@ function getNameInfo(name) {
 
 const kodi_pingala_jamu = 
 {
-  'header': getTimingText("5") + "🏆 " + getTranslated("kodi_pingala") + " 🏆" + '\n' + 'కోడి పింగళ వంతులో పెట్టుకోవాల్సిన రంగులు ↓',
+  'header': getTimingText("5") + "🏆 " + getTranslated("kodi_pingala") + " 🏆" + '\n' + 'కోడి పింగళ వంతులో గెలిచే రంగులు ↓',
 
   "winLakshana": "విన్నింగ్ లక్షణాలు ✅ : లోపల తెల్ల బుంగ ఉండాలి, పైనా పింగళి చూపు ఉన్నవి గెలుచును.",
   
@@ -285,7 +285,7 @@ const kodi_pingala_jamu =
 
 
 const kaki_dega_jamu = {
-  'header': getTimingText("1") + "🏆 " + getTranslated("kaki_dega") + " 🏆" + '\n' + getTranslated("kaki_dega") + ' వంతులో పెట్టుకోవాల్సిన రంగులు ↓',
+  'header': getTimingText("1") + "🏆 " + getTranslated("kaki_dega") + " 🏆" + '\n' + getTranslated("kaki_dega") + ' వంతులో గెలిచే రంగులు ↓',
 
   "winLakshana": "విన్నింగ్ లక్షణాలు ✅ : లోపల నల్లకుసి ఉండాలి, పైనా ఎరుపు ఉన్నవి గెలుచును",
   
@@ -304,7 +304,7 @@ const kaki_dega_jamu = {
 
 
 const nemali_pingala_jamu = {
-  'header': getTimingText("2") + "🏆 " + getTranslated("nemali_pingala") + " 🏆" + '\n' + getTranslated("nemali_pingala") + ' వంతులో పెట్టుకోవాల్సిన రంగులు ↓',
+  'header': getTimingText("2") + "🏆 " + getTranslated("nemali_pingala") + " 🏆" + '\n' + getTranslated("nemali_pingala") + ' వంతులో గెలిచే రంగులు ↓',
 
   "winLakshana": "విన్నింగ్ లక్షణాలు ✅ : పైనా గెట్టి కుసి ఉండాలి, పైనా బిరుసు ఉండాలి మరియు రంగు గెట్టిది అయ్యి ఉన్నవి గెలుచును.",
   
@@ -323,7 +323,7 @@ const nemali_pingala_jamu = {
 
 
 const kodi_dega_jamu = {
-  'header': getTimingText("3") + "🏆 " + getTranslated("kodi_dega") + " 🏆" + '\n' + getTranslated("kodi_dega") + ' వంతులో పెట్టుకోవాల్సిన రంగులు ↓',
+  'header': getTimingText("3") + "🏆 " + getTranslated("kodi_dega") + " 🏆" + '\n' + getTranslated("kodi_dega") + ' వంతులో గెలిచే రంగులు ↓',
 
   "winLakshana": "విన్నింగ్ లక్షణాలు ✅ : లోపల తెల్ల బుంగ ఉండాలి, పైనా ఎరుపు ఉన్నవి గెలుచును.",
   
@@ -344,7 +344,7 @@ const kodi_dega_jamu = {
 }
 
 const kaki_nemali_jamu = {
-  'header': getTimingText("4") + "🏆 " + getTranslated("kaki_nemali") + " 🏆" + '\n' + getTranslated("kaki_nemali")+ ' వంతులో పెట్టుకోవాల్సిన రంగులు ↓',
+  'header': getTimingText("4") + "🏆 " + getTranslated("kaki_nemali") + " 🏆" + '\n' + getTranslated("kaki_nemali")+ ' వంతులో గెలిచే రంగులు ↓',
 
   "winLakshana": "విన్నింగ్ లక్షణాలు ✅ : లోపల నల్ల బొంగ ఉండాలి, పైనా నెమలి చూపు ఉండి బిరుసు ఉన్నవి గెలుచును.",
   
@@ -365,7 +365,7 @@ const kaki_nemali_jamu = {
 
 
 const kodi_kaki_jamu = {
-  'header': getTimingText("5") + "🏆 " + getTranslated("kodi_kaki") + " 🏆" + '\n' + getTranslated("kodi_kaki")+ ' వంతులో పెట్టుకోవాల్సిన రంగులు ↓',
+  'header': getTimingText("3") + "🏆 " + getTranslated("kodi_kaki") + " 🏆" + '\n' + getTranslated("kodi_kaki")+ ' వంతులో గెలిచే రంగులు ↓',
 
   "winLakshana": "విన్నింగ్ లక్షణాలు ✅ : లోపల తెల్ల బుంగ ఉండాలి, పైనా బిరుసు ఉన్నవి గెలుచును.",
   
@@ -389,7 +389,7 @@ const kodi_kaki_jamu = {
 
 
 const kodi_nemali_jamu = {
-  'header': getTimingText("3") + "🏆 " + getTranslated("kodi_nemali") + " 🏆" + '\n' + getTranslated("kodi_nemali")+ ' వంతులో పెట్టుకోవాల్సిన రంగులు ↓',
+  'header': getTimingText("1") + "🏆 " + getTranslated("kodi_nemali") + " 🏆" + '\n' + getTranslated("kodi_nemali")+ ' వంతులో గెలిచే రంగులు ↓',
 
   "winLakshana": "విన్నింగ్ లక్షణాలు ✅ : లోపల తెల్ల బుంగ ఉండాలి, పైనా బిరుసు ఉన్నవి గెలుచును.",
   
@@ -405,7 +405,7 @@ const kodi_nemali_jamu = {
 
 
 const nemali_dega_jamu = {
-  'header': getTimingText("1") + "🏆 " + getTranslated("nemali_dega") + " 🏆" + '\n' + getTranslated("nemali_dega")+ ' వంతులో పెట్టుకోవాల్సిన రంగులు ↓',
+  'header': getTimingText("4") + "🏆 " + getTranslated("nemali_dega") + " 🏆" + '\n' + getTranslated("nemali_dega")+ ' వంతులో గెలిచే రంగులు ↓',
 
   "winLakshana": "విన్నింగ్ లక్షణాలు ✅ : లోపల గెట్టి కుసి, పైనా బిరుసు ఉన్నవి గెలుచును.",
   
@@ -421,7 +421,7 @@ const nemali_dega_jamu = {
 
 
 const kaki_pingali_jamu = {
-  'header': getTimingText("2") + "🏆 " + getTranslated("kaki_pingala") + " 🏆" + '\n' + getTranslated("kaki_pingala")+ ' వంతులో పెట్టుకోవాల్సిన రంగులు ↓',
+  'header': getTimingText("5") + "🏆 " + getTranslated("kaki_pingala") + " 🏆" + '\n' + getTranslated("kaki_pingala")+ ' వంతులో గెలిచే రంగులు ↓',
 
   "winLakshana": "విన్నింగ్ లక్షణాలు ✅ : లోపల నల్ల కుసి ఉండాలి, పైనా మేతదానం ఉన్నవి గెలుచును.",
   
@@ -445,7 +445,7 @@ const kaki_pingali_jamu = {
 
 
 const dega_pingala_jamu = {
-  'header': getTimingText("4") + "🏆 " + getTranslated("dega_pingala") + " 🏆" + '\n' + getTranslated("dega_pingala")+ ' వంతులో పెట్టుకోవాల్సిన రంగులు ↓',
+  'header': getTimingText("2") + "🏆 " + getTranslated("dega_pingala") + " 🏆" + '\n' + getTranslated("dega_pingala")+ ' వంతులో గెలిచే రంగులు ↓',
 
   "winLakshana": "విన్నింగ్ లక్షణాలు ✅ : లోపల గెట్టి కుసి ఉండాలి, పైనా మేతదానం ఉన్నవి గెలుచును.",
   
@@ -468,31 +468,31 @@ const dega_pingala_jamu = {
 
 const last_jamu = 
 {
-  'header': getTimingText("6") + "🏆 " + getTranslated("nemali_dega") + " 🏆" + '\n' + getTranslated("nemali_dega") + ' వంతులో పెట్టుకోవాల్సిన రంగులు ↓',
+  'header': getTimingText("6") + "🏆 " + getTranslated("kodi_nemali") + " 🏆" + '\n' + getTranslated("kodi_nemali") + ' వంతులో గెలిచే రంగులు ↓',
 
-  "winLakshana": "విన్నింగ్ లక్షణాలు ✅ : లోపల గెట్టి కుసి, పైనా బిరుసు ఉన్నవి గెలుచును.",
+  "winLakshana": "విన్నింగ్ లక్షణాలు ✅ : లోపల తెల్ల బుంగ ఉండాలి, పైనా బిరుసు ఉన్నవి గెలుచును.",
   
-  "losingLakshana": "లాసింగ్ లక్షణాలు ❌ : లోపల తెల్ల బుంగ ఉండాలి, పైనా నలుపు ఉన్నవి ఓటమి పాలు అవును.",
+  "losingLakshana": "లాసింగ్ లక్షణాలు ❌ : లోపల గెట్టి కుసి ఉండాలి, పైనా మేతదనం ఉన్నవి ఓటమి పాలు అవును.",
 
-  '1': getNameInfo("n_d"),
+  '1': getNameInfo("kodi_nemili"),
 
-  '2': getNameInfo("nemali_maila"),
+  '2': getNameInfo("white_kekkira"),
 
-  '3': getNameInfo("er_maila"),
+  '3': getNameInfo("t_bunga_p_k"),
 
 }
 
 
 const jsonData = {
-    'morning6' : nemali_dega_jamu,
+    'morning6' : kodi_nemali_jamu,
 
-    'morning8' : kaki_pingali_jamu,
+    'morning8' : dega_pingala_jamu,
   
-    'morning10' : kodi_nemali_jamu,
+    'morning10' : kodi_kaki_jamu,
   
-    'afternoon1' : dega_pingala_jamu,
+    'afternoon1' : nemali_dega_jamu,
   
-    'afternoon3' : kodi_kaki_jamu,
+    'afternoon3' : kaki_pingali_jamu,
 
     'evening' : last_jamu
   }
