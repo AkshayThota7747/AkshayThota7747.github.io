@@ -468,7 +468,7 @@ const dega_pingala_jamu = {
 
 const last_jamu = 
 {
-  'header': getTimingText("6") + "🏆 " + getTranslated("kodi_kaki") + " 🏆" + '\n' + getTranslated("kodi_kaki") + ' వంతులో గెలిచే రంగులు ↓',
+  'header': getTimingText("6") + "🏆 " + getTranslated("kaki_pingala") + " 🏆" + '\n' + getTranslated("kaki_pingala") + ' వంతులో గెలిచే రంగులు ↓',
 
   "winLakshana": "విన్నింగ్ లక్షణాలు ✅ : లోపల నల్ల కుసి ఉండాలి, పైనా మేతదానం ఉన్నవి గెలుచును.",
   
