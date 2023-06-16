@@ -4,7 +4,7 @@ const months = [ 'జనవరి' , 'ఫిబ్రవరి', 'మార్�
   days = [ 'ఆదివారం', 'సోమవారం', 'మంగళవారం', 'బుధవారం', 'గురువారం', 'శుక్రవారం', 'శనివారం' ],
   dateObj = new Date();
 // document.getElementById("calendar").textContent =  `🏆🏆🏆 ${months[dateObj.getMonth()]} ${dateObj.getDate()} ${days[dateObj.getDay()]} గెలిచే రంగులు🏆🏆🏆`;
-document.getElementById("calendar").textContent =  `🏆🏆🏆 జూన్ 16 శుక్రవారం గెలిచే రంగులు🏆🏆🏆`;
+document.getElementById("calendar").textContent =  `🏆🏆🏆 జూన్ 17 శనివారం గెలిచే రంగులు🏆🏆🏆`;
 
 
 function createElement(tagName, className) {
