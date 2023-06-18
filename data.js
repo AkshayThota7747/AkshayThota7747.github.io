@@ -262,7 +262,7 @@ function getNameInfo(name) {
 
 const kodi_pingala_jamu = 
 {
-  'header': getTimingText("5") + "🏆 " + getTranslated("kodi_pingala") + " 🏆" + '\n' + 'కోడి పింగళ వంతులో గెలిచే రంగులు ✅',
+  'header': getTimingText("1") + "🏆 " + getTranslated("kodi_pingala") + " 🏆" + '\n' + 'కోడి పింగళ వంతులో గెలిచే రంగులు ✅',
 
   "winLakshana": "విన్నింగ్ లక్షణాలు ✅ : లోపల తెల్ల బుంగ ఉండాలి, పైనా పింగళి చూపు ఉన్నవి గెలుచును.",
   
@@ -285,7 +285,7 @@ const kodi_pingala_jamu =
 
 
 const kaki_dega_jamu = {
-  'header': getTimingText("1") + "🏆 " + getTranslated("kaki_dega") + " 🏆" + '\n' + getTranslated("kaki_dega") + ' వంతులో గెలిచే రంగులు ✅',
+  'header': getTimingText("2") + "🏆 " + getTranslated("kaki_dega") + " 🏆" + '\n' + getTranslated("kaki_dega") + ' వంతులో గెలిచే రంగులు ✅',
 
   "winLakshana": "విన్నింగ్ లక్షణాలు ✅ : లోపల నల్లకుసి ఉండాలి, పైనా ఎరుపు ఉన్నవి గెలుచును",
   
@@ -304,7 +304,7 @@ const kaki_dega_jamu = {
 
 
 const nemali_pingala_jamu = {
-  'header': getTimingText("2") + "🏆 " + getTranslated("nemali_pingala") + " 🏆" + '\n' + getTranslated("nemali_pingala") + ' వంతులో గెలిచే రంగులు ✅',
+  'header': getTimingText("3") + "🏆 " + getTranslated("nemali_pingala") + " 🏆" + '\n' + getTranslated("nemali_pingala") + ' వంతులో గెలిచే రంగులు ✅',
 
   "winLakshana": "విన్నింగ్ లక్షణాలు ✅ : పైనా గెట్టి కుసి ఉండాలి, పైనా బిరుసు ఉండాలి మరియు రంగు గెట్టిది అయ్యి ఉన్నవి గెలుచును.",
   
@@ -323,7 +323,7 @@ const nemali_pingala_jamu = {
 
 
 const kodi_dega_jamu = {
-  'header': getTimingText("3") + "🏆 " + getTranslated("kodi_dega") + " 🏆" + '\n' + getTranslated("kodi_dega") + ' వంతులో గెలిచే రంగులు ✅',
+  'header': getTimingText("4") + "🏆 " + getTranslated("kodi_dega") + " 🏆" + '\n' + getTranslated("kodi_dega") + ' వంతులో గెలిచే రంగులు ✅',
 
   "winLakshana": "విన్నింగ్ లక్షణాలు ✅ : లోపల తెల్ల బుంగ ఉండాలి, పైనా ఎరుపు ఉన్నవి గెలుచును.",
   
@@ -344,7 +344,7 @@ const kodi_dega_jamu = {
 }
 
 const kaki_nemali_jamu = {
-  'header': getTimingText("4") + "🏆 " + getTranslated("kaki_nemali") + " 🏆" + '\n' + getTranslated("kaki_nemali")+ ' వంతులో గెలిచే రంగులు ✅',
+  'header': getTimingText("5") + "🏆 " + getTranslated("kaki_nemali") + " 🏆" + '\n' + getTranslated("kaki_nemali")+ ' వంతులో గెలిచే రంగులు ✅',
 
   "winLakshana": "విన్నింగ్ లక్షణాలు ✅ : లోపల నల్ల బొంగ ఉండాలి, పైనా నెమలి చూపు ఉండి బిరుసు ఉన్నవి గెలుచును.",
   
@@ -421,7 +421,7 @@ const nemali_dega_jamu = {
 
 
 const kaki_pingali_jamu = {
-  'header': getTimingText("3") + "🏆 " + getTranslated("kaki_pingala") + " 🏆" + '\n' + getTranslated("kaki_pingala")+ ' వంతులో గెలిచే రంగులు ✅',
+  'header': getTimingText("1") + "🏆 " + getTranslated("kaki_pingala") + " 🏆" + '\n' + getTranslated("kaki_pingala")+ ' వంతులో గెలిచే రంగులు ✅',
 
   "winLakshana": "విన్నింగ్ లక్షణాలు ✅ : లోపల నల్ల కుసి ఉండాలి, పైనా మేతదానం ఉన్నవి గెలుచును.",
   
@@ -468,39 +468,39 @@ const dega_pingala_jamu = {
 
 const last_jamu = 
 {
-  'header': getTimingText("6") + "🏆 " + getTranslated("kodi_nemali") + " 🏆" + '\n' + getTranslated("kodi_nemali") + ' వంతులో గెలిచే రంగులు ✅',
+  'header': getTimingText("6") + "🏆 " + getTranslated("kodi_pingala") + " 🏆" + '\n' + getTranslated("kodi_pingala") + ' వంతులో గెలిచే రంగులు ✅',
 
-  "winLakshana": "విన్నింగ్ లక్షణాలు ✅ : లోపల తెల్ల బుంగ ఉండాలి, పైనా బిరుసు ఉన్నవి గెలుచును.",
+  "winLakshana": "విన్నింగ్ లక్షణాలు ✅ : లోపల తెల్ల బుంగ ఉండాలి, పైనా పింగళి చూపు ఉన్నవి గెలుచును.",
   
-  "losingLakshana": "లాసింగ్ లక్షణాలు ❌ : లోపల గెట్టి కుసి ఉండాలి, పైనా మేతదానం ఉన్నవి ఓటమి పాలు అవును.",
+  "losingLakshana": "లాసింగ్ లక్షణాలు ❌ : లోపల నల్లకుసి ఉండాలి, పైనా బిరుసు ఉన్నవి ఓటమి పాలు అవును.",
+  
+  '1': getNameInfo("sethuva"),
 
-  '1': getNameInfo("kodi_kaki"),
+  '2': getNameInfo("thella_kodi_kekkirayi"),
 
-  '2': getNameInfo("kodi_chupu_kn"),
+  '3': getNameInfo("poola_rasangi"),
 
-  '3': getNameInfo("black_kekkira"),
+  '4': getNameInfo("kodi_pingali_2"),
 
-  '4': getNameInfo("kodi_pacha_kaki"),
+  '5': getNameInfo("kodi_pingali"),
 
-  '5': getNameInfo("nbs"),
+  '6': getNameInfo("kodi_pacha_kaki"),
 
-  '6': getNameInfo("budidha_rangu_maila"),
-
-  '7': getNameInfo("kodi_chupu_kd"),
+  '7': getNameInfo("kodi_kaki"),
 
 }
 
 
 const jsonData = {
-    'morning6' : kodi_kaki_jamu,
+    'morning6' : kodi_pingala_jamu,
 
-    'morning8' : nemali_dega_jamu,
+    'morning8' : kaki_dega_jamu,
   
-    'morning10' : kaki_pingali_jamu,
+    'morning10' : nemali_pingala_jamu,
   
-    'afternoon1' : kodi_nemali_jamu,
+    'afternoon1' : kodi_dega_jamu,
   
-    'afternoon3' : dega_pingala_jamu,
+    'afternoon3' : kaki_nemali_jamu,
 
     'evening' : last_jamu
   }
