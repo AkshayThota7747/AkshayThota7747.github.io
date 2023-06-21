@@ -1,9 +1,13 @@
 // Calendar section
-const months = [ 'జనవరి' , 'ఫిబ్రవరి', 'మార్చి', 'ఏప్రిల్', 'మే', 'జూన్', 'జులై', 'ఆగస్ట్', 'సెప్టెంబర్' , 'అక్టోబర్' , 'నవంబర్' , 'డిసెంబర్'],
-  days = [ 'ఆదివారం', 'సోమవారం', 'మంగళవారం', 'బుధవారం', 'గురువారం', 'శుక్రవారం', 'శనివారం' ],
-  dateObj = new Date();
-// document.getElementById("calendar").textContent =  `🏆🏆🏆 ${months[dateObj.getMonth()]} ${dateObj.getDate()} ${days[dateObj.getDay()]} గెలిచే రంగులు🏆🏆🏆`;
-document.getElementById("calendar").textContent =  `🏆🏆🏆 జూన్ 22 గురువారం గెలిచే రంగులు🏆🏆🏆`;
+const months = [
+  'జనవరి', 'ఫిబ్రవరి', 'మార్చి', 'ఏప్రిల్', 'మే', 'జూన్', 'జులై',
+  'ఆగస్ట్', 'సెప్టెంబర్', 'అక్టోబర్', 'నవంబర్', 'డిసెంబర్'
+];
+const days = [
+  'ఆదివారం', 'సోమవారం', 'మంగళవారం', 'బుధవారం', 'గురువారం', 'శుక్రవారం', 'శనివారం'
+];
+const dateObj = new Date();
+document.getElementById("calendar").textContent = `🏆🏆🏆 ${months[dateObj.getMonth()]} ${dateObj.getDate()} ${days[dateObj.getDay()]} గెలిచే రంగులు🏆🏆🏆`;
 
 function createElement(tagName, className) {
   const result = document.createElement(tagName);
@@ -31,7 +35,7 @@ function createCarousel(header, dataArray, winLakshana, losingLakshana, idx) {
         imgArray[idx].classList.remove('show-slide');
         dotArray[idx].classList.remove('active');
       }
-    };
+    }
   }
 
   const container = createElement('div', 'container');
@@ -42,18 +46,17 @@ function createCarousel(header, dataArray, winLakshana, losingLakshana, idx) {
     next = createElement('a', 'next');
 
   h4.innerText = header;
-  h4.innerText = header;
   prev.innerHTML = '<img src="/assets/previous.png" style="width: 32px; height: 32px;">';
   next.innerHTML = '<img src="/assets/next.png" style="width: 32px; height: 32px;">';
 
   prev.addEventListener('click', function () { updatePhotoIndex(--currentIndex); });
   next.addEventListener('click', function () { updatePhotoIndex(++currentIndex); });
 
-  const imgArray = dataArray.map(({url, text}, idx) => {
+  const imgArray = dataArray.map(({ url, text }, idx) => {
     const mySlides = createElement('div', 'mySlides fade'),
       img = createElement('img', 'pic'),
       textElement = createElement('div', 'text'),
-      winLakshanaText = createElement('div', 'winLakshana');
+      winLakshanaText = createElement('div', 'winLakshana'),
       losingLakshanaText = createElement('div', 'losingLakshana');
 
     img.src = url;
@@ -61,24 +64,25 @@ function createCarousel(header, dataArray, winLakshana, losingLakshana, idx) {
     winLakshanaText.innerText = winLakshana;
     losingLakshanaText.innerText = losingLakshana;
 
-    mySlides.append(img, textElement, winLakshanaText , losingLakshanaText);
+    mySlides.append(img, textElement, winLakshanaText, losingLakshanaText);
 
-    if (currentIndex === idx)
+    if (currentIndex === idx) {
       mySlides.classList.add('show-slide');
+    }
 
     return mySlides;
   });
 
   const dotHolder = createElement('div', 'dot-holder'),
     dotArray = dataArray.map((_, idx) => {
-    const dot = createElement('span', 'dot');
-    dot.addEventListener('click', function () {
-      currentIndex = idx;
-      updatePhotoIndex(currentIndex);
-    });
+      const dot = createElement('span', 'dot');
+      dot.addEventListener('click', function () {
+        currentIndex = idx;
+        updatePhotoIndex(currentIndex);
+      });
 
-    return dot;
-  });
+      return dot;
+    });
 
   const numberRound = createElement('div', 'number');
   numberRound.innerText = idx;
@@ -88,6 +92,39 @@ function createCarousel(header, dataArray, winLakshana, losingLakshana, idx) {
   container.append(slideshowContainer, dotHolder, numberRound);
 
   updatePhotoIndex(currentIndex);
+
+  // Swipe gesture handling
+  let touchStartX = 0;
+  let touchEndX = 0;
+
+  container.addEventListener('touchstart', function (event) {
+    touchStartX = event.changedTouches[0].screenX;
+  });
+
+  container.addEventListener('touchend', function (event) {
+    touchEndX = event.changedTouches[0].screenX;
+    handleSwipe();
+  });
+
+  container.addEventListener('mousedown', function (event) {
+    touchStartX = event.screenX;
+  });
+
+  container.addEventListener('mouseup', function (event) {
+    touchEndX = event.screenX;
+    handleSwipe();
+  });
+
+  function handleSwipe() {
+    const swipeThreshold = 100; // Minimum distance required for a swipe
+
+    const swipeDistance = touchEndX - touchStartX;
+    if (swipeDistance > swipeThreshold && currentIndex > 0) {
+      updatePhotoIndex(--currentIndex); // Swipe left
+    } else if (swipeDistance < -swipeThreshold && currentIndex < dataArray.length - 1) {
+      updatePhotoIndex(++currentIndex); // Swipe right
+    }
+  }
 
   return container;
 }
@@ -100,5 +137,5 @@ Object.values(jsonData).forEach((item, idx) => {
     return acc;
   }, []);
 
-  document.body.insertBefore(createCarousel(item.header, data, item.winLakshana , item.losingLakshana , idx + 1), lastText);
+  document.body.insertBefore(createCarousel(item.header, data, item.winLakshana, item.losingLakshana, idx + 1), lastText);
 });
