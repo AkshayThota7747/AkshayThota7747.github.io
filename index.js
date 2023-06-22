@@ -1,3 +1,5 @@
+window.appVersion = "1"
+
 // Calendar section
 const months = [
   'జనవరి', 'ఫిబ్రవరి', 'మార్చి', 'ఏప్రిల్', 'మే', 'జూన్', 'జులై',
@@ -7,7 +9,8 @@ const days = [
   'ఆదివారం', 'సోమవారం', 'మంగళవారం', 'బుధవారం', 'గురువారం', 'శుక్రవారం', 'శనివారం'
 ];
 const dateObj = new Date();
-document.getElementById("calendar").textContent = `🏆🏆🏆 ${months[dateObj.getMonth()]} ${dateObj.getDate()} ${days[dateObj.getDay()]} గెలిచే రంగులు🏆🏆🏆`;
+// document.getElementById("calendar").textContent = `🏆🏆🏆 ${months[dateObj.getMonth()]} ${dateObj.getDate()} ${days[dateObj.getDay()]} గెలిచే రంగులు🏆🏆🏆`;
+document.getElementById("calendar").textContent = `🏆🏆🏆 జూన్ 23 శుక్రవారం గెలిచే రంగులు🏆🏆🏆`;
 
 function createElement(tagName, className) {
   const result = document.createElement(tagName);
