@@ -421,7 +421,7 @@ const nemali_dega_jamu = {
 
 
 const kaki_pingali_jamu = {
-  'header': getTimingText("1") + "🏆 " + getTranslated("kaki_pingala") + " 🏆" + '\n' + getTranslated("kaki_pingala")+ ' వంతులో గెలిచే రంగులు ✅',
+  'header': getTimingText("3") + "🏆 " + getTranslated("kaki_pingala") + " 🏆" + '\n' + getTranslated("kaki_pingala")+ ' వంతులో గెలిచే రంగులు ✅',
 
   "winLakshana": "విన్నింగ్ లక్షణాలు ✅ : లోపల నల్ల కుసి ఉండాలి, పైనా మేతదానం ఉన్నవి గెలుచును.",
   
@@ -468,39 +468,39 @@ const dega_pingala_jamu = {
 
 const last_jamu = 
 {
-  'header': getTimingText("6") + "🏆 " + getTranslated("kodi_pingala") + " 🏆" + '\n' + getTranslated("kodi_pingala") + ' వంతులో గెలిచే రంగులు ✅',
+  'header': getTimingText("6") + "🏆 " + getTranslated("kodi_kaki") + " 🏆" + '\n' + getTranslated("kodi_kaki") + ' వంతులో గెలిచే రంగులు ✅',
 
-  "winLakshana": "విన్నింగ్ లక్షణాలు ✅ : లోపల తెల్ల బుంగ ఉండాలి, పైనా పింగళి చూపు ఉన్నవి గెలుచును.",
+  "winLakshana": "విన్నింగ్ లక్షణాలు ✅ : లోపల తెల్ల బుంగ ఉండాలి, పైనా బిరుసు ఉన్నవి గెలుచును.",
   
-  "losingLakshana": "లాసింగ్ లక్షణాలు ❌ : లోపల నల్లకుసి ఉండాలి, పైనా బిరుసు ఉన్నవి ఓటమి పాలు అవును.",
-  
-  '1': getNameInfo("sethuva"),
+  "losingLakshana": "లాసింగ్ లక్షణాలు ❌ : లోపల గెట్టి కుసి ఉండాలి, పైనా మేతదానం ఉన్నవి ఓటమి పాలు అవును.",
 
-  '2': getNameInfo("thella_kodi_kekkirayi"),
+  '1': getNameInfo("kodi_kaki"),
 
-  '3': getNameInfo("poola_rasangi"),
+  '2': getNameInfo("kodi_chupu_kn"),
 
-  '4': getNameInfo("kodi_pingali_2"),
+  '3': getNameInfo("black_kekkira"),
 
-  '5': getNameInfo("kodi_pingali"),
+  '4': getNameInfo("kodi_pacha_kaki"),
 
-  '6': getNameInfo("kodi_pacha_kaki"),
+  '5': getNameInfo("nbs"),
 
-  '7': getNameInfo("kodi_kaki"),
+  '6': getNameInfo("budidha_rangu_maila"),
+
+  '7': getNameInfo("kodi_chupu_kd"),
 
 }
 
 
 const jsonData = {
-    'morning6' : kodi_pingala_jamu,
+    'morning6' : kodi_kaki_jamu,
 
-    'morning8' : kaki_dega_jamu,
+    'morning8' : nemali_dega_jamu,
   
-    'morning10' : nemali_pingala_jamu,
+    'morning10' : kaki_pingali_jamu,
   
-    'afternoon1' : kodi_dega_jamu,
+    'afternoon1' : kodi_nemali_jamu,
   
-    'afternoon3' : kaki_nemali_jamu,
+    'afternoon3' : dega_pingala_jamu,
 
     'evening' : last_jamu
   }
