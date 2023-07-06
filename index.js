@@ -10,7 +10,7 @@ const days = [
 ];
 const dateObj = new Date();
 // document.getElementById("calendar").textContent = `🏆🏆🏆 ${months[dateObj.getMonth()]} ${dateObj.getDate()} ${days[dateObj.getDay()]} గెలిచే రంగులు🏆🏆🏆`;
-document.getElementById("calendar").textContent = `🏆🏆🏆 జులై 06 గురువారం గెలిచే రంగులు🏆🏆🏆`;
+document.getElementById("calendar").textContent = `🏆🏆🏆 జులై 07 శుక్రవారం గెలిచే రంగులు🏆🏆🏆`;
 document.getElementById("paksham").textContent = `🌚  కృష్ణపక్షం  🌚`;
 // document.getElementById("paksham").textContent = `🌚  శుక్ల పక్షం  🌚`;
 
