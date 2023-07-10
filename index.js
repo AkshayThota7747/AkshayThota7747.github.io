@@ -10,14 +10,14 @@ const days = [
 ];
 const dateObj = new Date();
 // document.getElementById("calendar").textContent = `🏆🏆🏆 ${months[dateObj.getMonth()]} ${dateObj.getDate()} ${days[dateObj.getDay()]} గెలిచే రంగులు🏆🏆🏆`;
-document.getElementById("calendar").textContent = `🏆🏆🏆 జులై 10 సోమవారం గెలిచే రంగులు🏆🏆🏆`;
+document.getElementById("calendar").textContent = `🏆🏆🏆 జులై 11 మంగళవారం గెలిచే రంగులు🏆🏆🏆`;
 document.getElementById("paksham").textContent = `🌚  కృష్ణపక్షం  🌚`;
 // document.getElementById("paksham").textContent = `🌚  శుక్ల పక్షం  🌚`;
 
 // sukla - light , krishna - dark
 // sukla - 🌝
 // krishna - 🌚
-// amavasya - 🌑
+// amavasya - 🌑 july 17 + krishna paksha
 
 function createElement(tagName, className) {
   const result = document.createElement(tagName);
