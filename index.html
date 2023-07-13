@@ -6,6 +6,22 @@
     <link rel="stylesheet" type="text/css" href="styles.css">
   </head>
   <body>
+    <style>
+      .like-button {
+        display: inline-block;
+        cursor: pointer;
+      }
+      .like-button.active {
+        color: red;
+      }
+    </style>
+  </head>
+  <body>
+    <div>
+      <button class="like-button">Like</button>
+      <span id="like-count">0</span> likes
+    </div>
+
     <!-- Add loader container -->
     <div class="loader-container" id="loader-container">
       <!-- Loader div -->
@@ -40,6 +56,10 @@
 
       gtag('config', 'G-QEPZDWF5J9');
     </script>
+
+    <!-- likes server -->
+    <script src="./likeserver.js"></script>
+
   </body>
 </html>
 
